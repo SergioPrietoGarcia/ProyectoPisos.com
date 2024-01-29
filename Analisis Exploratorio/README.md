@@ -44,6 +44,6 @@ Este repositorio contiene un script de Python que realiza un análisis explorato
 
 ### 9. Guardado de Datos:
 
-- Se guardaron los datos resultantes del análisis exploratorio en un nuevo archivo CSV.
+- Se guardaron los datos resultantes del análisis exploratorio en un nuevo archivo CSV llamado **pisos-pontevedra-machine-learning.csv** .
 
 Este resumen proporciona una visión general del proceso de análisis exploratorio de datos realizado en el script. Para obtener detalles específicos, consulte el script completo en el repositorio.
