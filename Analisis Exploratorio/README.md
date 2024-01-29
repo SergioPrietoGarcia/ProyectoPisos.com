@@ -4,7 +4,7 @@ Este repositorio contiene un script de Python que realiza un análisis explorato
 
 ## Contenido del Repositorio:
 
-- **Análisis_Exploratorio_de_Datos.ipynb:** Este es el script principal que realiza el análisis exploratorio de datos utilizando la biblioteca pandas, seaborn y matplotlib.
+- **aed-pisos-pontevedra.py:** Este es el script principal que realiza el análisis exploratorio de datos utilizando la biblioteca pandas, seaborn y matplotlib.
 
 ## Resumen del Proceso:
 
