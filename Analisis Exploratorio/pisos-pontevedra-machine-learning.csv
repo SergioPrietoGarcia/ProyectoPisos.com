@@ -1,0 +1,762 @@
+titulo,ubicacion,precio,Superficie,Habitaciones,Baños,Planta,Conservacion,Gastos de Comunidad,Amueblado,Balcon,Ascensor,Calefaccion,Garaje,Terraza,Trastero
+Piso en venta en Calle de Rosalía de Castro,Centro-Areal (Distrito Casco Urbano. Vigo),284000,126,3.0,2.0,Muchos_pisos,Reformado,0,1,0,1,Colectiva,1,1,0
+"Piso en venta en Avenida de Balaidos, 13, cerca de Camino de Espedrigada",As Travesas-Balaídos (Distrito Casco Urbano. Vigo),196000,115,3.0,2.0,Primeros_pisos,A estrenar,50,1,0,0,Renovable,0,0,0
+Piso en venta en Centro,Vilagarcía de Arousa,220000,122,3.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,0,0,1
+"Apartamento en venta en Rúa Cuba, 2",Baiona,229000,78,2.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,1,0,0
+"Piso en venta en Paseo de la Praia de Silgar, 64, cerca de Rúa Vigo",Sanxenxo,235000,62,2.0,2.0,Muchos_pisos,Reformado,0,1,0,1,No especifica,1,1,0
+Piso en venta en Calle de Benito Corbal,Zona Praza de Barcelos (Pontevedra Capital),260900,155,4.0,2.0,Primeros_pisos,A reformar,50,1,1,1,Colectiva,1,0,0
+"Apartamento en venta en Avenida de Lugo, 5, cerca de Calle de Faustino Santalices",A Seca-Os Salgueriños (Pontevedra Capital),150000,82,2.0,1.0,Desconocido,En buen estado,0,1,0,1,Colectiva,0,1,1
+"Piso en venta en Calle de Caracas, 8",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),270000,100,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,1,1
+Piso en venta en Barro,Barro,132000,106,3.0,2.0,Primeros_pisos,En buen estado,65,1,0,0,Electrica,1,0,1
+Piso en venta en Calle de Rua Cela,Darbo (Santa María). Municipio de Cangas,145000,60,2.0,1.0,Desconocido,En buen estado,36,1,0,1,Electrica,1,1,0
+Piso en venta en Calle Revolta Noalla,Noalla (Santo Estevo). Municipio de Sanxenxo,126000,51,1.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,1,0
+Apartamento en venta en Rúa Vigo,Sanxenxo,160000,50,1.0,1.0,Muchos_pisos,En buen estado,0,1,1,1,Gas,0,0,0
+Apartamento en venta en Casco Vello,Casco Vello (Distrito Casco Urbano. Vigo),760000,202,3.0,4.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de la Virgen del Camino,Zona Praza de Barcelos (Pontevedra Capital),210000,81,2.0,1.0,Primeros_pisos,En buen estado,0,0,0,1,Gas,1,0,0
+Piso en venta en Calle de la Historia,Zona Praza de Barcelos (Pontevedra Capital),345000,110,4.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,1,0,0
+Piso en venta en Vilariño,O Hio (Santo Andre). Municipio de Cangas,155000,72,2.0,1.0,Primeros_pisos,En buen estado,50,1,1,1,Electrica,1,1,0
+Piso en venta en Pasaxe de San Bartolomeu,Centro-Echegaray (Pontevedra Capital),150000,85,3.0,1.0,Muchos_pisos,En buen estado,0,1,0,0,Colectiva,0,0,1
+Piso en venta en Plaza España,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),130000,85,3.0,1.0,Bajo,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Teis,Teis (Vigo),200000,130,3.0,2.0,Primeros_pisos,En buen estado,70,1,0,1,Gas,1,0,0
+Apartamento en venta en Rodeira,Coiro (San Salvador). Municipio de Cangas,90000,45,1.0,1.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,0,0,0
+Piso en venta en Paseo de Silgar,Sanxenxo,235000,71,2.0,2.0,Muchos_pisos,En buen estado,50,1,1,1,Electrica,1,1,0
+Piso en venta en Castrelos,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),670000,400,3.0,3.0,Muchos_pisos,En buen estado,0,1,1,1,Electrica,0,1,0
+Piso en venta en Calle de Luis Taboada,Centro-Areal (Distrito Casco Urbano. Vigo),617000,174,5.0,2.0,Muchos_pisos,En buen estado,216,1,0,0,Colectiva,1,0,0
+Piso en venta en Puxeiros,Mos (Santa Eulalia),135000,80,2.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,No especifica,1,0,0
+Piso en venta en Sanxenxo Playa,Sanxenxo,180000,62,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,0,0,1
+Piso en venta en Calle de Eduardo Pondal,Vilagarcía de Arousa,115000,78,2.0,2.0,Bajo,A estrenar,50,1,0,0,No especifica,1,1,0
+Piso en venta en Calle de San Salvador,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),298000,167,4.0,3.0,Muchos_pisos,En buen estado,144,1,1,1,Gas,1,1,1
+Piso en venta en Sanxenxo,Sanxenxo,269000,117,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Calle Marcelina Panete,Lavadores (Vigo),210000,110,3.0,2.0,Muchos_pisos,En buen estado,59,1,0,1,Gas,1,0,0
+"Piso en venta en Calle de Venezuela, cerca de Calle de Celso Emilio Ferreiro",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),455000,160,4.0,3.0,Muchos_pisos,En buen estado,260,1,0,1,Colectiva,1,1,1
+"Piso en venta en Paseo de la Praia de Silgar, cerca de Calle Camelios",Sanxenxo,225000,73,2.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,0
+"Piso en venta en Calle de Victoriano Pérez Vidal, 28",Salceda de Caselas,116500,85,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Centro,Vilagarcía de Arousa,115000,129,4.0,2.0,Primeros_pisos,En buen estado,50,0,0,0,Gas,0,0,0
+"Piso en venta en Calle de Urzáiz, 109, cerca de Calle de Pizarro",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),105000,115,4.0,1.0,Primeros_pisos,En buen estado,0,0,1,0,No especifica,0,0,0
+Piso en venta en Vigo,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),225000,100,3.0,2.0,Muchos_pisos,En buen estado,60,1,1,0,Gas,0,0,1
+Piso en venta en Sanxenxo,Sanxenxo,195000,70,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Povisa,O Castro (Distrito Casco Urbano. Vigo),285000,91,3.0,2.0,Bajo,En buen estado,0,0,0,0,No especifica,1,0,0
+"Piso en venta en Avenida de la Gran Vía, cerca de Calle de Paraguay",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),320000,140,4.0,2.0,Primeros_pisos,En buen estado,150,1,1,1,Gas,1,0,0
+Apartamento en venta en Medico Ballina,O Burgo-Campus Universitario (Pontevedra Capital),126000,67,2.0,1.0,Primeros_pisos,En buen estado,30,1,0,1,Gas,1,0,0
+Piso en venta en Castrelos-Balaídos-Miñoca,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),218000,100,3.0,2.0,Muchos_pisos,En buen estado,70,1,0,0,Gas,1,0,0
+"Piso en venta en Avenida de Balaidos, cerca de Camino de Espedrigada",A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),196000,100,3.0,2.0,Primeros_pisos,A estrenar,50,1,0,1,No especifica,1,0,0
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,140000,130,4.0,2.0,Muchos_pisos,En buen estado,55,1,0,1,Colectiva,1,1,0
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,133000,70,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Sanxenxo,Sanxenxo,230000,94,2.0,2.0,Bajo,En buen estado,0,1,0,0,No especifica,1,1,0
+"Piso en venta en Calle de Tomás Alonso, cerca de Calle de Ramón Soler",As Travesas-Balaídos (Distrito Casco Urbano. Vigo),180000,95,4.0,2.0,Primeros_pisos,Reformado,70,1,0,1,Electrica,0,0,0
+Piso en venta en Avenida de Balaidos,Sardoma-Castrelos (Vigo),196000,100,3.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,No especifica,0,0,0
+Piso en venta en Casablanca-Corte Inglés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),380000,110,3.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Gas,0,0,0
+Piso en venta en Avenida de Rosalía de Castro,Ponteareas,129000,105,3.0,2.0,Muchos_pisos,En buen estado,50,1,1,1,Gas,1,0,0
+Piso en venta en Alcabre-Navia-Samil,Alcabre-Navia-Comesaña (Vigo),270000,102,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Alameda,Centro-Echegaray (Pontevedra Capital),350000,135,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,0,1
+Piso en venta en Avda. de Castelao,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),130000,42,1.0,1.0,Bajo,En buen estado,0,1,0,0,No especifica,0,0,1
+Piso en venta en Plaza de Galicia,Centro-Echegaray (Pontevedra Capital),350000,150,4.0,3.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Calle del Trovador Xoán García de Guillade,Ponteareas,94000,100,3.0,2.0,Primeros_pisos,En buen estado,50,1,1,0,Electrica,1,0,0
+"Piso en venta en Calle Lg Monte [O]-Caldelas, nº 21",Paramos (Tui),60000,79,3.0,1.0,Bajo,En buen estado,0,1,0,0,Gas,1,0,0
+Piso en venta en Rúa de Lugo,Salceda de Caselas,106320,98,2.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Gas,1,1,0
+Piso en venta en Calle Rúa As Mimosas,Ponteareas,119600,93,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Avda. de Camelias,Berbés-Peritos (Distrito Casco Urbano. Vigo),214000,100,4.0,2.0,Bajo,En buen estado,0,1,0,0,No especifica,1,1,0
+Piso en venta en Calle del Arenal,Centro-Areal (Distrito Casco Urbano. Vigo),265000,141,4.0,2.0,Primeros_pisos,Reformado,130,0,0,1,No especifica,0,0,1
+Piso en venta en Calle del Xogo de la Ola,O Porriño,99000,100,3.0,2.0,Primeros_pisos,En buen estado,50,0,0,0,No especifica,1,1,0
+Piso en venta en Carretera de Redondela,Teis (Vigo),155000,61,2.0,2.0,Primeros_pisos,A estrenar,0,1,0,1,Gas,1,0,0
+Piso en venta en Castrelos-Balaídos-Miñoca,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),193000,80,3.0,2.0,Muchos_pisos,En buen estado,70,1,0,0,Gas,1,0,0
+"Piso en venta en Calle Progreso, cerca de Calle Sanxenxo",Sanxenxo,124600,86,1.0,1.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,1,0,0
+Piso en venta en Rúa do Miradoiro,A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),320000,123,4.0,2.0,Primeros_pisos,En buen estado,70,1,0,1,Gas,1,1,1
+"Piso en venta en Calle Lugar Monte-Caldelas, nº 21",Guillarey (Tui),60000,75,3.0,1.0,Desconocido,En buen estado,0,1,0,0,No especifica,1,0,0
+Piso en venta en Traviesas,Praza da Independencia (Distrito Casco Urbano. Vigo),320000,140,4.0,2.0,Bajo,En buen estado,0,1,1,1,No especifica,0,0,1
+"Piso en venta en Calle de Urzáiz, cerca de Calle de Magallanes",Centro-Areal (Distrito Casco Urbano. Vigo),395000,157,4.0,3.0,Muchos_pisos,En buen estado,145,1,0,1,Colectiva,0,0,0
+"Piso en venta en Avenida de la Florida, cerca de Calle de Manuel de Castro",As Travesas-Balaídos (Distrito Casco Urbano. Vigo),230000,107,4.0,2.0,Primeros_pisos,En buen estado,0,0,0,1,Electrica,1,0,0
+"Apartamento en venta en Avenida de Médico Ballina, cerca de Rúa Médico Ballina",O Burgo-Campus Universitario (Pontevedra Capital),132500,93,2.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,1,1,0
+"Piso en venta en Calle de Tomás Alonso, cerca de Camino del Chouzo",As Travesas-Balaídos (Distrito Casco Urbano. Vigo),181500,93,4.0,2.0,Primeros_pisos,Reformado,0,1,0,1,Electrica,0,0,0
+"Piso en venta en Calle de Ecuador, cerca de Calle Cuba",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),380000,114,3.0,3.0,Muchos_pisos,En buen estado,0,0,0,1,Gas,0,0,1
+Piso en venta en Avenida de Buenos Aires,O Porriño,148000,92,3.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,0,0
+Piso en venta en Calle de la Paz,Berbés-Peritos (Distrito Casco Urbano. Vigo),330000,361,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,1,1,0
+"Piso en venta en Avenida de Balaidos, cerca de Camino de Espedrigada",As Travesas-Balaídos (Distrito Casco Urbano. Vigo),196000,90,3.0,2.0,Primeros_pisos,A estrenar,0,1,0,1,No especifica,1,0,0
+Piso en venta en Moraña,Moraña,64600,51,1.0,1.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+"Piso en venta en Calle de Juan Bautista Andrade, cerca de Calle de la Torre",O Burgo-Campus Universitario (Pontevedra Capital),110000,90,3.0,2.0,Muchos_pisos,En buen estado,30,1,0,0,Colectiva,0,0,1
+Piso en venta en Calle Santo Antoniño,Barro,85000,55,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Rúa Cuba,Baiona,230000,78,2.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,1,1,0
+"Piso en venta en Avenida de Balaidos, 13, cerca de Camino de Espedrigada",A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),196000,115,3.0,2.0,Primeros_pisos,A estrenar,50,1,0,1,No especifica,0,1,1
+Piso en venta en Avenida Peinador,Mos (Santa Eulalia),155000,91,3.0,2.0,Primeros_pisos,En buen estado,70,1,0,1,No especifica,1,0,0
+Piso en venta en Calle Sauce,Ponteareas,100000,120,4.0,2.0,Desconocido,En buen estado,90,1,0,0,Gas,1,0,0
+"Piso en venta en Calle del Fotógrafo Xosé Gil, 24",As Travesas-Balaídos (Distrito Casco Urbano. Vigo),250000,92,3.0,3.0,Primeros_pisos,En buen estado,90,1,0,1,Gas,1,0,0
+Piso en venta en Calle de los Castiñeiros,Sanxenxo,210000,70,2.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+"Piso en venta en Avenida de Uruguai, 33",Centro-Echegaray (Pontevedra Capital),285000,119,3.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,0,0
+Piso en venta en Avenida de Manuel del Palacio,Campo da Torre-Mollabao (Pontevedra Capital),238000,119,4.0,2.0,Muchos_pisos,En buen estado,0,0,0,1,Colectiva,0,1,0
+Piso en venta en Calle del Muiño,Redondela,129000,70,3.0,1.0,Primeros_pisos,En buen estado,50,1,0,1,Electrica,1,0,0
+"Piso en venta en Calle de Bolivia, 47",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),175000,81,2.0,1.0,Primeros_pisos,En buen estado,100,0,0,0,Colectiva,0,0,0
+"Apartamento en venta en Avenida de Lugo, 5, cerca de Calle de Faustino Santalices",A Seca-Os Salgueriños (Pontevedra Capital),190000,90,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+Piso en venta en Calle Senen Sobral,Marín,195000,280,7.0,3.0,Bajo,En buen estado,0,1,0,0,No especifica,1,0,0
+"Piso en venta en Avenida das Camelias, cerca de Rúa Sergio Saborido Cid",Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),175000,102,3.0,2.0,Desconocido,A reformar,70,0,0,1,No especifica,0,0,0
+Piso en venta en Calle de la Devesa Santa Tegra,Teis (Vigo),95000,80,2.0,1.0,Primeros_pisos,A reformar,0,1,0,0,No especifica,0,0,0
+Piso en venta en Calle del Trovador Xoán García de Guillade,Ponteareas,90000,100,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,0,0,0
+"Piso en venta en Calle de Urzáiz, cerca de Calle de María Berdiales",Centro-Areal (Distrito Casco Urbano. Vigo),285000,127,3.0,2.0,Muchos_pisos,En buen estado,52,1,0,1,Electrica,0,0,0
+Piso en venta en Calle del Carrizo,Casablanca-Calvario (Distrito Casco Urbano. Vigo),189000,95,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+"Piso en venta en Calle de García Olloqui, 3",Centro-Areal (Distrito Casco Urbano. Vigo),589000,120,2.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Electrica,1,0,0
+Piso en venta en Calle del Arenal,Centro-Areal (Distrito Casco Urbano. Vigo),237000,80,2.0,1.0,Muchos_pisos,Reformado,50,1,0,1,No especifica,0,1,1
+Piso en venta en Calle de María Auxiliadora,Centro-Areal (Distrito Casco Urbano. Vigo),265000,84,2.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Calle Xan Xose,Centro-Echegaray (Pontevedra Capital),660000,220,4.0,3.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,1,1,0
+"Piso en venta en Calle de Victoriano Pérez Vidal, 44",Salceda de Caselas,97000,166,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,0,Electrica,0,1,0
+"Piso en venta en Avenida de Cambados, cerca de Calle de Bouza de Abajo",Vilagarcía de Arousa,180000,112,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+Piso en venta en Calle Po-400,Salvaterra de Miño,139000,120,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,0,Colectiva,0,0,0
+Piso en venta en Avenida de Buenos Aires,O Porriño,129000,89,2.0,1.0,Muchos_pisos,En buen estado,50,1,0,1,Gas,1,1,0
+Piso en venta en Ramon Nieto,Lavadores (Vigo),99500,80,2.0,1.0,Primeros_pisos,En buen estado,30,1,0,0,No especifica,0,0,0
+"Piso en venta en Avenida de Joselín, 6",Baiona,300000,107,4.0,2.0,Muchos_pisos,En buen estado,70,1,1,1,No especifica,1,0,0
+Apartamento en venta en Calle de Pedaporta,Combarro (San Roque). Municipio de Poio,170000,97,2.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Avenida de Manuel del Palacio,Campo da Torre-Mollabao (Pontevedra Capital),119500,80,2.0,1.0,Muchos_pisos,En buen estado,0,0,0,0,No especifica,0,1,0
+Piso en venta en Calle Rua Dos Carballos,Ponteareas,117500,100,3.0,2.0,Muchos_pisos,En buen estado,50,1,1,1,Electrica,1,1,0
+"Piso en venta en Avenida de Castelao, 9",Parroquias Rurales (Pontevedra Capital),145000,72,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,0,0,0
+Piso en venta en Calle Rúa Das Gándaras,Salceda de Caselas,95000,68,2.0,1.0,Primeros_pisos,En buen estado,56,1,0,0,Electrica,1,0,0
+"Piso en venta en Estrada das Sinas, 10",Caleiro (Villamayor). Municipio de Vilanova de Arousa,146000,102,3.0,1.0,Primeros_pisos,En buen estado,0,1,1,0,Electrica,0,0,1
+"Piso en venta en Calle Jaime Janer, 171, cerca de Calle San Pedro",Marín (Escuela Naval Militar),128200,120,2.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,0,1
+"Piso en venta en Travesía de Vigo, cerca de Calle Vía Norte",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),190000,120,4.0,1.0,Desconocido,En buen estado,50,0,0,1,No especifica,1,1,0
+"Piso en venta en Calle Aragón, cerca de Calle de Redomeira",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),170000,87,2.0,1.0,Primeros_pisos,En buen estado,20,1,1,0,Electrica,0,0,1
+Piso en venta en Torrecedeira,Berbés-Peritos (Distrito Casco Urbano. Vigo),220000,112,3.0,1.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,0,1,0
+"Piso en venta en Calle Pintor Maxide, nº 4",Cambados,150000,100,3.0,2.0,Bajo,A estrenar,0,1,1,1,Electrica,1,1,0
+Piso en venta en Calle de Ecuador,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),250000,110,2.0,2.0,Muchos_pisos,En buen estado,60,1,1,1,Gas,0,0,0
+"Piso en venta en Rúa de Naval, 20",Isla de Arosa (A Illa de Arousa),120000,50,1.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,0,0
+"Piso en venta en Calle Aragón, cerca de Calle San Juan",Casablanca-Calvario (Distrito Casco Urbano. Vigo),155000,50,1.0,1.0,Primeros_pisos,En buen estado,50,1,0,1,No especifica,1,1,0
+Piso en venta en Calle de la Condesa de la Casa Barcena,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),280000,120,3.0,2.0,Primeros_pisos,En buen estado,110,1,1,1,Electrica,1,1,0
+Piso en venta en Pontevedra,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),235000,112,3.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,Gas,1,1,0
+"Piso en venta en Calle Cayoffa, Tenerife",A Estrada,210000,85,2.0,1.0,Bajo,A estrenar,0,1,1,0,No especifica,1,1,0
+Apartamento en venta en Campelo,Poio (San Juan-Resto Parroquia),149000,112,2.0,2.0,Primeros_pisos,En buen estado,0,0,0,1,Gas,1,0,0
+Piso en venta en Calle Otero Pedrayo,Lalín,80000,104,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,0
+Piso en venta en Centro,Vilagarcía de Arousa,220000,122,3.0,2.0,Primeros_pisos,En buen estado,70,1,1,1,No especifica,0,0,1
+Piso en venta en Calle Kayrel,Bueu (Casco Urbano),170000,128,2.0,2.0,Primeros_pisos,En buen estado,30,1,0,1,Gas,1,0,0
+"Piso en venta en Calle 5º Transversal Oliva, nº 5",A Guarda,65000,109,3.0,2.0,Desconocido,A reformar,30,0,1,0,No especifica,0,0,0
+Piso en venta en Guarda (A),A Guarda,104000,72,2.0,1.0,Muchos_pisos,En buen estado,35,0,0,1,No especifica,0,0,0
+"Piso en venta en Calle de la Estación, 15",Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),245000,144,3.0,2.0,Desconocido,En buen estado,15,1,0,0,No especifica,0,0,0
+Piso en venta en Castrelos-Balaídos-Miñoca,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),196000,115,3.0,2.0,Desconocido,En buen estado,60,1,0,1,Electrica,0,0,0
+Piso en venta en Pasarón,O Burgo-Campus Universitario (Pontevedra Capital),185000,101,3.0,2.0,Muchos_pisos,En buen estado,50,1,1,0,No especifica,1,0,0
+Piso en venta en Calle del Couso,Calvario (O Rosal),110000,85,3.0,2.0,Primeros_pisos,En buen estado,35,1,1,1,Electrica,1,0,0
+Piso en venta en Calle de Blanco Amor,Vilagarcía de Arousa,155000,100,3.0,2.0,Primeros_pisos,En buen estado,63,1,0,1,No especifica,1,1,0
+Piso en venta en Lalín,Lalín,64000,83,3.0,1.0,Primeros_pisos,En buen estado,0,1,1,1,No especifica,0,0,1
+Piso en venta en Casablanca-Corte Inglés,Casablanca-Calvario (Distrito Casco Urbano. Vigo),365000,95,3.0,2.0,Primeros_pisos,En buen estado,110,1,0,0,Gas,1,0,0
+Apartamento en venta en Arenal-Centro,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),165000,35,1.0,1.0,Muchos_pisos,En buen estado,45,1,0,1,Gas,0,0,0
+"Piso en venta en Calle de la República Argentina, 6",Centro-Areal (Distrito Casco Urbano. Vigo),197900,80,2.0,2.0,Muchos_pisos,En buen estado,100,1,1,1,Colectiva,1,0,0
+"Piso en venta en Avenida de Fragoso, cerca de Avenida de Balaidos",As Travesas-Balaídos (Distrito Casco Urbano. Vigo),165000,116,4.0,2.0,Muchos_pisos,En buen estado,126,1,1,1,Colectiva,0,0,1
+Piso en venta en A Salgueira-O Castaño,A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),399000,233,7.0,4.0,Muchos_pisos,Reformado,70,1,0,1,Gas,1,1,0
+"Piso en venta en Calle B, cerca de Rúa Pintor Laxeiro",Lalín,66000,71,2.0,1.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,0,0,0
+Piso en venta en Salvaterra de Miño,Salvaterra de Miño,107000,74,2.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Guarda (A),A Guarda,165000,73,2.0,1.0,Primeros_pisos,En buen estado,36,1,1,1,Electrica,1,0,0
+Piso en venta en Avenida del Outeiro,Poio (San Juan-Albar),160000,96,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Calle Lugar Revel,Noalla (Santo Estevo). Municipio de Sanxenxo,155000,96,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,No especifica,1,0,0
+Piso en venta en Paseo de la Praia de Silgar,Sanxenxo,340000,131,4.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,No especifica,1,1,0
+Apartamento en venta en Mondariz-Balneario,Mondariz-Balneario,75000,50,1.0,1.0,Desconocido,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Calle Progreso,Sanxenxo,235000,86,2.0,2.0,Desconocido,En buen estado,0,1,1,1,No especifica,1,1,0
+Piso en venta en Carretera Gondar,Noalla (Santo Estevo). Municipio de Sanxenxo,85000,45,1.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+"Piso en venta en Avenida de Vigo, cerca de Calle del Veintisiete",A Estrada,115000,93,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Rúa Vigo,Sanxenxo,285000,100,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,1,1,0
+Piso en venta en Rúa Vigo,Adina (Santa María). Municipio de Sanxenxo,215000,80,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Rúa Río Valiejos,Adina (Santa María). Municipio de Sanxenxo,345000,87,2.0,2.0,Primeros_pisos,En buen estado,70,1,1,1,No especifica,1,1,0
+"Apartamento en venta en Avenida de Luis Rocafort, 33",Sanxenxo,240000,71,2.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+"Piso en venta en Avenida de Benito Vigo, cerca de Calle de Serafín Pazo",A Estrada,150000,138,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Carretera de la Circunvalación,Sanxenxo,149000,45,1.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,1,1,0
+"Apartamento en venta en Avenida de Luis Rocafort, 22",Sanxenxo,270000,72,2.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Mondariz,Mondariz,100000,89,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Electrica,1,0,1
+"Piso en venta en Calle de Calvo Sotelo, cerca de Calle Irida",A Estrada,180000,75,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,0,No especifica,0,1,0
+Piso en venta en Mondariz,Mondariz,60000,60,2.0,1.0,Muchos_pisos,En buen estado,20,1,0,0,Gas,1,0,0
+Piso en venta en Calle Fonte de Ons - Revolta,Sanxenxo,124000,53,1.0,1.0,Muchos_pisos,En buen estado,30,1,0,1,No especifica,1,0,0
+"Apartamento en venta en Calle de Ourense, 18",Sanxenxo,180000,65,2.0,1.0,Muchos_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+"Apartamento en venta en Avenida de Luis Rocafort, 41",Sanxenxo,220000,94,2.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de Antón Losada Diéguez,A Estrada,100000,116,3.0,2.0,Muchos_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+"Apartamento en venta en Calle de Ourense, 16",Sanxenxo,225000,75,2.0,1.0,Muchos_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle Pedra de Auga,Ponteareas,90000,100,3.0,2.0,Desconocido,En buen estado,0,1,0,0,Electrica,1,1,1
+"Piso en venta en Avenida de Pontevedra, cerca de Avenida de Marín",A Estrada,130000,140,3.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de Madrid,Sanxenxo,240000,80,2.0,2.0,Muchos_pisos,A estrenar,30,1,0,1,Electrica,1,1,0
+Apartamento en venta en Rúa Vigo,Sanxenxo,250000,69,2.0,1.0,Muchos_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle Plaza Aurelio Lores,Portonovo (Sanxenxo),175000,93,3.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Gas,0,1,0
+Piso en venta en Calle dos Poetas Galegos,Sanxenxo,240000,128,3.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+"Piso en venta en Calle de Serafín Pazo, cerca de Avenida de Benito Vigo",A Estrada,145000,87,2.0,1.0,Primeros_pisos,En buen estado,0,0,0,0,Gas,1,0,0
+Piso en venta en Calle de Miraflores,Sanxenxo,200000,80,2.0,2.0,Primeros_pisos,En buen estado,50,1,1,1,Gas,1,0,0
+"Piso en venta en Calle Progreso, cerca de Calle de Ourense",Sanxenxo,235000,79,2.0,2.0,Primeros_pisos,En buen estado,40,1,0,1,No especifica,1,1,0
+"Piso en venta en Avenida de Pontevedra, cerca de Avenida de Marín",A Estrada,145000,119,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Mondariz,Mondariz,115000,90,3.0,2.0,Desconocido,A estrenar,50,1,1,1,Electrica,1,0,0
+Piso en venta en Calle de Miraflores,Sanxenxo,200000,85,2.0,2.0,Primeros_pisos,En buen estado,30,1,0,1,Gas,1,0,0
+Piso en venta en Catoira,Catoira,118000,114,3.0,2.0,Primeros_pisos,En buen estado,40,0,0,1,Gas,0,0,0
+Piso en venta en Calle de Ulla,A Estrada,51500,75,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de Iglesias Vilarelle,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),205000,105,4.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,1,1
+Piso en venta en Calle de Bolivia,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),239500,92,3.0,2.0,Muchos_pisos,A reformar,115,0,0,1,Colectiva,1,0,0
+"Piso en venta en Calle Progreso, cerca de Calle de Ourense",Sanxenxo,275000,118,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Calle de Rosalía de Castro,Adina (Santa María). Municipio de Sanxenxo,375000,101,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,1,1
+"Piso en venta en Calle de Rosalía de Castro, 11",Sanxenxo,299000,110,4.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de Anduriña,Casablanca-Calvario (Distrito Casco Urbano. Vigo),160000,91,3.0,1.0,Muchos_pisos,En buen estado,30,0,1,1,Electrica,1,0,0
+Piso en venta en Avenida de Fermín Bouza Brey,Ponteareas,95000,115,3.0,2.0,Desconocido,En buen estado,50,1,0,1,Gas,0,1,1
+Piso en venta en Calle de Ourense,Sanxenxo,315000,120,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Calle de las Camelias,Ponteareas,130000,101,3.0,2.0,Desconocido,En buen estado,50,1,0,1,No especifica,1,0,0
+Apartamento en venta en Casablanca-Calvario,Casablanca-Calvario (Distrito Casco Urbano. Vigo),750000,157,4.0,3.0,Desconocido,En buen estado,0,0,0,1,No especifica,0,0,0
+Piso en venta en Plaza Campo da Feira,A Estrada,90000,75,2.0,1.0,Primeros_pisos,A estrenar,0,0,0,1,Gas,1,0,0
+Apartamento en venta en Centro-Areal,Centro-Areal (Distrito Casco Urbano. Vigo),560000,120,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Mondariz,Mondariz,100000,95,3.0,2.0,Primeros_pisos,En buen estado,50,1,1,0,No especifica,1,0,1
+"Piso en venta en Calle Progreso, cerca de Calle de los Castiñeiros",Sanxenxo,148000,80,3.0,2.0,Primeros_pisos,A reformar,0,1,0,0,No especifica,0,1,0
+"Piso en venta en Calle de Gonzalo Gallas, 8",Zona Praza de Barcelos (Pontevedra Capital),170000,114,3.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,0,0,0
+"Apartamento en venta en Rúa David Cal, 15",Aldan (San Cibrán). Municipio de Cangas,230000,100,3.0,1.0,Primeros_pisos,A estrenar,0,0,0,0,Electrica,0,1,0
+Piso en venta en Plaza de la Herreria,Centro-Echegaray (Pontevedra Capital),220000,114,5.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,0,0,0
+Piso en venta en Mondariz-Balneario,Mondariz-Balneario,125000,65,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+"Piso en venta en Avenida del Conde de Gondomar, 19",Gondomar,110000,36,1.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,0,0,0
+"Piso en venta en Calle de Calvo Sotelo, cerca de Travesía Primeira de Justo Martínez",A Estrada,165000,151,4.0,2.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,0,0,0
+Apartamento en venta en Calle de Madrid,Sanxenxo,360000,74,2.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Rúa Vigo,Sanxenxo,175000,38,1.0,1.0,Muchos_pisos,En buen estado,22,1,0,1,No especifica,1,0,0
+"Apartamento en venta en Avenida de Vigo, cerca de Avenida de Moaña",Darbo (Santa María). Municipio de Cangas,153000,82,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,0,Electrica,1,0,0
+Piso en venta en Calle de la Paz,Berbés-Peritos (Distrito Casco Urbano. Vigo),298000,103,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,1,0
+Apartamento en venta en Mondariz-Balneario,Mondariz-Balneario,175000,52,1.0,1.0,Muchos_pisos,En buen estado,0,1,0,0,No especifica,1,0,0
+"Piso en venta en Avenida de la Gran Vía, cerca de Calle del Doctor González Sierra",A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),345000,183,5.0,2.0,Muchos_pisos,Reformado,100,1,0,1,Colectiva,0,0,0
+"Apartamento en venta en Avenida de Luis Rocafort, 2",Sanxenxo,405000,86,2.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Avenida de Pontevedra,A Estrada,135000,105,4.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Apartamento en venta en Praza España-Zona Corte Inglés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),530000,226,4.0,3.0,Desconocido,En buen estado,0,0,0,1,No especifica,0,0,0
+Piso en venta en Calle de Fernando II,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),205000,90,2.0,2.0,Muchos_pisos,En buen estado,50,1,0,1,Gas,1,1,0
+Piso en venta en Calle de la Redondela,Cangas,200000,140,3.0,2.0,Primeros_pisos,En buen estado,0,0,0,1,Electrica,1,0,0
+"Apartamento en venta en Avenida de Lugo, 5, cerca de Calle de Faustino Santalices",A Seca-Os Salgueriños (Pontevedra Capital),180000,89,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,1,1
+Piso en venta en Grupo San Paio,A Estrada,162000,95,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Calle Piso en Av. Benito Vigo A Estrada,A Estrada,73000,130,4.0,2.0,Primeros_pisos,En buen estado,0,0,1,1,Gas,0,1,1
+Piso en venta en Calle del Alcalde Vázquez Varela,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),300000,146,5.0,3.0,Muchos_pisos,A reformar,0,0,0,1,Gas,0,1,0
+Piso en venta en Calle Ep-9211,Noalla (Santo Estevo). Municipio de Sanxenxo,195000,80,2.0,2.0,Bajo,A estrenar,0,1,0,1,Electrica,1,1,0
+Piso en venta en Avenida de Castelao,Ponteareas,124000,105,3.0,2.0,Desconocido,En buen estado,0,1,0,1,Gas,1,1,0
+Piso en venta en Silleda,Silleda (Casco Urbano),115000,98,3.0,2.0,Desconocido,A estrenar,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de José Adrio Barreiro,A Seca-Os Salgueriños (Pontevedra Capital),190000,115,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,1,0,0
+Piso en venta en Calle de San Salvador,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),599000,225,6.0,4.0,Muchos_pisos,En buen estado,250,0,0,1,Gas,1,0,1
+"Piso en venta en Calle Progreso, 79, cerca de Calle de los Castiñeiros",Sanxenxo,399500,140,4.0,3.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle Tranvía,O Porriño,179000,102,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Electrica,1,1,0
+Piso en venta en A Lanzada,Sanxenxo,185000,90,3.0,1.0,Desconocido,En buen estado,0,0,0,0,No especifica,1,0,0
+"Piso en venta en Calle del Conde de Torrecedeira, cerca de Calle de Marqués de Valterra",Berbés-Peritos (Distrito Casco Urbano. Vigo),209000,87,3.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Calle de los Cesteiros,Casco Vello (Distrito Casco Urbano. Vigo),119000,30,1.0,1.0,Muchos_pisos,En buen estado,30,1,0,0,Electrica,0,0,0
+"Piso en venta en Avenida das Camelias, cerca de Calle de Pi i Margall",Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),329000,138,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+Piso en venta en Plaza Martínez Anido A Estrada,A Estrada,128000,105,3.0,3.0,Primeros_pisos,En buen estado,0,1,1,1,Gas,1,0,0
+"Piso en venta en Calle de Madrid, 16",Sanxenxo,360000,107,3.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de Manuel Cuña Novas,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),235000,112,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,1,0
+Piso en venta en Calle de Cangas,Coiro (San Salvador). Municipio de Cangas,150000,80,2.0,1.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,1,0
+Piso en venta en Calle de la Reconquista,Centro-Areal (Distrito Casco Urbano. Vigo),800000,231,4.0,3.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Apartamento en venta en Calle de Santa Tegra,Teis (Vigo),120000,33,1.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+Apartamento en venta en Casco Vello,Casco Vello (Distrito Casco Urbano. Vigo),590000,180,2.0,3.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de Alfonso Vázquez Fraile,Ponteareas,110000,100,3.0,2.0,Desconocido,En buen estado,30,1,1,1,No especifica,1,0,0
+"Piso en venta en Calle de Cristo, cerca de Calle de la Cruz Branca",Casablanca-Calvario (Distrito Casco Urbano. Vigo),240000,112,3.0,2.0,Primeros_pisos,En buen estado,105,1,0,1,Gas,1,0,0
+"Piso en venta en Avenida Vigo, cerca de Camino Parra",Chapela (San Fausto). Municipio de Redondela,130000,104,3.0,1.0,Primeros_pisos,En buen estado,50,0,0,0,Electrica,0,1,1
+Apartamento en venta en Calle de Zaragoza,Praza da Independencia (Distrito Casco Urbano. Vigo),125000,38,1.0,1.0,Primeros_pisos,Reformado,30,1,0,1,No especifica,0,1,1
+Piso en venta en Calle de la Virgen del Camino,Zona Praza de Barcelos (Pontevedra Capital),290000,115,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,0,Gas,1,0,0
+"Piso en venta en Calle das Áreas, 5",Sabaris (Baiona),450000,104,4.0,2.0,Muchos_pisos,Reformado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Mondariz-Balneario,Mondariz-Balneario,76000,120,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Colectiva,0,1,0
+Piso en venta en Avenida Gatomorto,Parroquias Rurales (Pontevedra Capital),300000,110,3.0,1.0,Bajo,En buen estado,0,1,0,0,Colectiva,0,1,0
+"Piso en venta en Calle de la Peregrina, cerca de Avenida de Vigo",Zona Praza de Barcelos (Pontevedra Capital),300000,110,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,0,1,0
+Piso en venta en Calle de Echegaray,Centro-Echegaray (Pontevedra Capital),380000,177,5.0,3.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,1,0
+"Apartamento en venta en Avenida de Lugo, cerca de Calle de las Viñas",A Seca-Os Salgueriños (Pontevedra Capital),159000,70,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+Apartamento en venta en Praza España-Zona Corte Inglés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),360000,94,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle del Rouco,Centro-Echegaray (Pontevedra Capital),560000,190,4.0,4.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Cangas,Cangas,67500,50,1.0,1.0,Bajo,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Ponteareas,Ponteareas,106000,110,3.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+"Piso en venta en Avenida de Benito Vigo, cerca de Calle Irida",A Estrada,75000,115,3.0,2.0,Primeros_pisos,A reformar,30,0,1,1,Gas,0,0,0
+Piso en venta en Rúa do Magnolio,Ponteareas,120000,97,3.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,Gas,1,0,1
+"Piso en venta en Travesía de Vigo, cerca de Callejón del Viso",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),130000,56,2.0,1.0,Muchos_pisos,En buen estado,50,1,0,1,Gas,0,0,1
+Piso en venta en Calle de la Ciriña,A Seca-Os Salgueriños (Pontevedra Capital),215000,100,3.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,1,0,0
+Apartamento en venta en Calle Becacina,Casablanca-Calvario (Distrito Casco Urbano. Vigo),179600,76,2.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+Piso en venta en Calle de San Antoniño,Zona Praza de Barcelos (Pontevedra Capital),145000,85,3.0,1.0,Primeros_pisos,En buen estado,30,1,0,0,Gas,0,0,0
+Piso en venta en Calle de Atranco,Cangas,190000,100,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,0,0
+Piso en venta en Calle de Redondela,Coia (Distrito Casco Urbano. Vigo),210000,115,4.0,2.0,Muchos_pisos,En buen estado,120,1,0,1,Colectiva,1,0,1
+"Piso en venta en Avenida de Castelao, 9",Parroquias Rurales (Pontevedra Capital),150000,69,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,1,1,0
+Apartamento en venta en Camino del Rapadouro,Coiro (San Salvador). Municipio de Cangas,160000,70,2.0,1.0,Primeros_pisos,En buen estado,0,0,0,0,Electrica,1,0,1
+"Piso en venta en Calle de Pi i Margall, cerca de Calle de Menéndez Pelayo",Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),350000,161,4.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,Colectiva,1,1,0
+Apartamento en venta en La Parda,A Seca-Os Salgueriños (Pontevedra Capital),180000,85,2.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,Gas,1,1,0
+Piso en venta en Praza España-Zona Corte Inglés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),385000,110,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,0,0,0
+Piso en venta en Calle Ernestina Otero Sestelo,Zona Praza de Barcelos (Pontevedra Capital),236000,126,3.0,2.0,Primeros_pisos,A estrenar,0,0,0,0,No especifica,0,0,0
+Piso en venta en Salceda de Caselas,Salceda de Caselas,106320,79,2.0,2.0,Primeros_pisos,En buen estado,20,1,1,0,No especifica,1,0,1
+Piso en venta en Marín,Marín,150000,140,4.0,2.0,Muchos_pisos,En buen estado,0,0,1,1,No especifica,0,1,0
+Piso en venta en Teis,Teis (Vigo),189000,107,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+Piso en venta en Ponteareas,Ponteareas,135000,100,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+Apartamento en venta en Avenida de Uruguai,Centro-Echegaray (Pontevedra Capital),200000,74,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+Piso en venta en Calle del Doctor Loureiro Crespo,A Seca-Os Salgueriños (Pontevedra Capital),150000,58,1.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Caldas de Reis,Caldas de Reis (Casco Urbano),105000,70,3.0,1.0,Muchos_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+Piso en venta en Rúa Vigo,Sanxenxo,295000,130,2.0,2.0,Bajo,A estrenar,0,1,0,0,Electrica,0,1,1
+"Piso en venta en Calle Paseo Do Louro, nº 2",O Porriño,118000,87,2.0,2.0,Primeros_pisos,En buen estado,70,1,1,1,Electrica,1,1,0
+Piso en venta en Avenida Vigo,Chapela (San Fausto). Municipio de Redondela,129000,64,2.0,1.0,Primeros_pisos,En buen estado,48,1,0,1,Electrica,0,0,0
+"Piso en venta en Travesía de Vigo, cerca de Calle de Numancia",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),140000,82,3.0,2.0,Primeros_pisos,A reformar,45,0,0,1,Gas,0,0,1
+Piso en venta en Calle de Martínez Padín,Tui,190000,100,2.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,No especifica,1,1,0
+"Piso en venta en Avenida de la Gran Vía, cerca de Calle de Zamora",O Castro (Distrito Casco Urbano. Vigo),490000,160,3.0,2.0,Muchos_pisos,En buen estado,50,1,0,1,Gas,0,1,0
+Piso en venta en Moraña,Moraña,99000,90,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Apartamento en venta en Mondariz,Mondariz,85000,66,2.0,2.0,Desconocido,A estrenar,50,1,0,1,Electrica,1,0,0
+Piso en venta en Baixada ó Pontillón,Sardoma-Castrelos (Vigo),150000,247,5.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Avenida del Almirante Méndez Núñez,Moaña (Casco Urbano),140000,100,4.0,2.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,0,0,0
+Piso en venta en Calle de Paulino Freire,Bouzas (Distrito Casco Urbano. Vigo),450000,214,5.0,3.0,Primeros_pisos,En buen estado,100,1,1,1,Gas,1,1,0
+Piso en venta en Centro - Echegaray,Centro-Echegaray (Pontevedra Capital),215000,144,6.0,2.0,Bajo,En buen estado,0,0,0,0,Colectiva,0,0,0
+"Piso en venta en Calle de Ángel Amor Ruibal, 16",A Seca-Os Salgueriños (Pontevedra Capital),146680,85,2.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,0,0
+Piso en venta en Calle del Pino,Vila de Cruces,39000,87,3.0,1.0,Muchos_pisos,En buen estado,0,0,0,0,No especifica,0,0,1
+Piso en venta en Calle Nogal,Casablanca-Calvario (Distrito Casco Urbano. Vigo),130000,90,3.0,1.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de Ernesto Caballero,A Seca-Os Salgueriños (Pontevedra Capital),200000,110,3.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,1,0,0
+"Piso en venta en Calle del Couto de San Honorato, cerca de Calle de la Rola",Casablanca-Calvario (Distrito Casco Urbano. Vigo),295000,92,3.0,2.0,Muchos_pisos,En buen estado,100,1,0,1,Gas,1,0,0
+Piso en venta en Avenida de Castrelos,Sardoma-Castrelos (Vigo),340000,166,4.0,2.0,Muchos_pisos,En buen estado,147,1,0,1,Gas,1,0,0
+Piso en venta en Calle Avenida José Graña,Cangas,270000,83,2.0,2.0,Desconocido,En buen estado,56,1,0,1,Colectiva,1,1,0
+Piso en venta en Calle de Tomás Mirambell,Baiona,230000,76,3.0,2.0,Muchos_pisos,En buen estado,50,1,0,0,No especifica,1,0,0
+"Piso en venta en Avenida de la Gran Vía, cerca de Calle de Venezuela",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),529000,272,5.0,3.0,Muchos_pisos,Reformado,100,1,1,1,Gas,1,1,0
+"Piso en venta en Calle de San Pelayo, cerca de Calle Cincuenta y Seis",A Estrada,168000,97,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Renovable,1,0,0
+"Piso en venta en Travesía de Vigo, cerca de Calle de San Xosé",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),149000,94,3.0,2.0,Muchos_pisos,En buen estado,70,0,1,1,No especifica,0,0,0
+Piso en venta en Sanxenxo Playa,Sanxenxo,249000,120,2.0,2.0,Bajo,En buen estado,50,0,1,0,Electrica,0,1,0
+Apartamento en venta en Calle Prado de las Barxas,Moaña (Resto Parroquia),149000,46,1.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,Electrica,1,1,1
+Piso en venta en Goián,Goyan (Tomiño),84000,137,3.0,1.0,Muchos_pisos,En buen estado,0,1,1,0,No especifica,0,0,1
+Piso en venta en Cangas,Darbo (Santa María). Municipio de Cangas,165000,107,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Electrica,1,0,0
+"Piso en venta en Calle de Ecuador, cerca de Calle Cuba",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),380000,115,3.0,2.0,Muchos_pisos,A estrenar,0,1,1,1,No especifica,0,1,0
+Piso en venta en Urzaiz-Calvario,Centro-Areal (Distrito Casco Urbano. Vigo),160000,58,1.0,1.0,Primeros_pisos,En buen estado,70,1,0,0,Colectiva,1,0,0
+Apartamento en venta en Calle Arcade Piñeiro,Arcade (Soutomaior),126517,42,1.0,1.0,Desconocido,En buen estado,0,1,0,1,Colectiva,0,1,1
+"Piso en venta en Calle de López Mora, cerca de Calle Pintor Lugrís",Praza da Independencia (Distrito Casco Urbano. Vigo),135000,60,1.0,1.0,Desconocido,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Rúa Vigo,Sanxenxo,345000,160,2.0,2.0,Bajo,A estrenar,0,1,0,0,Electrica,0,1,0
+"Piso en venta en Paseo de la Praia de Silgar, cerca de Calle de La Coruña",Sanxenxo,444000,95,3.0,2.0,Muchos_pisos,A estrenar,30,1,1,1,No especifica,1,1,0
+"Piso en venta en Rúa Baladas, 2",Perdecanay (Barro),115000,110,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,0,Gas,1,1,0
+Piso en venta en Calvario,Casablanca-Calvario (Distrito Casco Urbano. Vigo),289000,124,3.0,2.0,Primeros_pisos,En buen estado,0,0,0,1,No especifica,1,0,0
+"Piso en venta en Calle del Conde de Torrecedeira, cerca de Calle de Llorente",Berbés-Peritos (Distrito Casco Urbano. Vigo),210000,157,5.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,0,1,0
+"Piso en venta en Plaza del Espiñeiro, 24",Portonovo (Sanxenxo),159999,73,2.0,1.0,Muchos_pisos,En buen estado,0,1,1,1,No especifica,1,0,0
+Piso en venta en Calle del Rouco,Zona Praza de Barcelos (Pontevedra Capital),355000,107,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+"Piso en venta en Calle de Redomeira, cerca de Calle Aragón",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),95000,75,3.0,1.0,Muchos_pisos,En buen estado,30,0,0,0,No especifica,0,0,0
+Piso en venta en Rúa Lamazáns,Ponteareas,90820,93,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,0,0
+Piso en venta en Calle Calle Ernestina Otero Sestelo,Zona Praza de Barcelos (Pontevedra Capital),179000,95,2.0,1.0,Primeros_pisos,A estrenar,0,0,0,0,No especifica,0,1,0
+Piso en venta en Calle de Pedro Alvarado,Teis (Vigo),150000,41,1.0,1.0,Desconocido,En buen estado,0,0,0,0,Gas,1,0,0
+Piso en venta en Travesía del Pumariño,Marín,110000,112,5.0,2.0,Desconocido,En buen estado,30,0,0,0,No especifica,0,0,0
+Piso en venta en Salvaterra de Miño,Salvaterra de Miño,120000,120,3.0,2.0,Desconocido,En buen estado,0,1,0,1,Colectiva,0,1,0
+Piso en venta en Calle de Gerona,Praza da Independencia (Distrito Casco Urbano. Vigo),380000,152,4.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+Piso en venta en Calle de la Gaviota,Casablanca-Calvario (Distrito Casco Urbano. Vigo),170000,110,2.0,1.0,Muchos_pisos,En buen estado,75,1,1,1,Gas,1,0,0
+Piso en venta en Calle de Menéndez Pelayo,Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),165000,67,2.0,1.0,Primeros_pisos,En buen estado,110,1,1,1,Colectiva,0,0,0
+"Piso en venta en Calle de Antón Losada Diéguez, 1",A Estrada,98000,80,3.0,2.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,0,1,1
+Piso en venta en Calle Pintor Lugrís,Praza da Independencia (Distrito Casco Urbano. Vigo),235000,114,4.0,2.0,Desconocido,En buen estado,50,0,0,1,No especifica,1,1,0
+Piso en venta en Plaza de Galicia,Campo da Torre-Mollabao (Pontevedra Capital),260000,130,4.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,1,0,0
+"Piso en venta en Camino Fianteira, nº 12 A",Sanxenxo,168000,92,2.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,No especifica,1,1,0
+Piso en venta en Calle de Rosalía de Castro,Centro-Areal (Distrito Casco Urbano. Vigo),225000,78,2.0,1.0,Desconocido,En buen estado,0,0,0,1,No especifica,0,0,1
+Piso en venta en Centro,Redondela,120000,75,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,0,Electrica,0,0,0
+Piso en venta en Calle de Bolivia,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),390000,143,3.0,2.0,Muchos_pisos,En buen estado,130,1,0,1,Colectiva,1,0,0
+Piso en venta en Rúa de Antón Fraguas,A Seca-Os Salgueriños (Pontevedra Capital),345000,110,4.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,1,0,0
+Piso en venta en As Travesas-Balaídos,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),196000,100,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,0,0
+Piso en venta en Calle Calle Ernestina Otero Sestelo,Zona Praza de Barcelos (Pontevedra Capital),213000,95,2.0,2.0,Muchos_pisos,A estrenar,0,0,0,0,No especifica,0,0,0
+"Piso en venta en Avenida de la Gran Vía, cerca de Calle de las Illas Canarias",O Castro (Distrito Casco Urbano. Vigo),300000,92,3.0,2.0,Muchos_pisos,En buen estado,34,0,0,1,No especifica,0,1,1
+Piso en venta en Traviesas-Plaza Independencia,Praza da Industria (Distrito Casco Urbano. Vigo),110000,95,3.0,2.0,Muchos_pisos,En buen estado,120,0,1,0,No especifica,0,1,1
+"Piso en venta en Avenida del Outeiro, 20",Poio (San Juan-Albar),150000,95,2.0,2.0,Muchos_pisos,En buen estado,0,1,1,0,No especifica,1,1,0
+Piso en venta en Sanxenxo Playa,Sanxenxo,175000,60,2.0,1.0,Bajo,En buen estado,0,1,1,0,No especifica,1,0,0
+Piso en venta en Calle Calle Ernestina Otero Sestelo,Zona Praza de Barcelos (Pontevedra Capital),223000,125,3.0,2.0,Primeros_pisos,A estrenar,0,0,0,0,No especifica,0,1,0
+"Piso en venta en Calle de Calvo Sotelo, cerca de Plaza de Galicia",A Estrada,115000,114,3.0,2.0,Muchos_pisos,Reformado,15,1,0,0,Gas,0,1,0
+Piso en venta en Carretera de Balsa,Matamá-Beade-Bembrive-Valadares-Zamáns (Vigo),150000,85,3.0,1.0,Desconocido,A reformar,0,1,0,0,No especifica,1,0,1
+Piso en venta en Centro,Sanxenxo,290000,104,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Electrica,1,1,0
+Piso en venta en Alameda,Centro-Areal (Distrito Casco Urbano. Vigo),495000,120,3.0,2.0,Primeros_pisos,A estrenar,0,1,1,1,Electrica,1,0,0
+"Piso en venta en Avenida de Castrelos, cerca de Camino de Telleira",Sardoma-Castrelos (Vigo),147000,52,2.0,1.0,Primeros_pisos,En buen estado,54,1,0,1,Colectiva,1,0,0
+"Piso en venta en Calle de Ecuador, cerca de Avenida de la Gran Vía",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),348000,110,3.0,2.0,Primeros_pisos,A estrenar,0,1,1,1,No especifica,0,0,0
+Piso en venta en Sanxenxo,Sanxenxo,148000,87,3.0,2.0,Primeros_pisos,En buen estado,50,1,1,0,Electrica,0,1,0
+Piso en venta en Camelias-Gran Vía-Hispanidad,Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),329000,143,3.0,2.0,Primeros_pisos,En buen estado,153,1,0,0,Colectiva,1,0,0
+Piso en venta en Ponteareas,Ponteareas,130000,100,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,0,1,0
+Piso en venta en Calle de Atranco,Coiro (San Salvador). Municipio de Cangas,198000,121,3.0,2.0,Primeros_pisos,En buen estado,30,1,0,1,Electrica,1,1,0
+Piso en venta en Avenida de Fragoso,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),175000,110,4.0,2.0,Muchos_pisos,En buen estado,65,1,1,1,Gas,0,0,0
+"Piso en venta en Calle de Barcelona, cerca de Calle de Sevilla",O Castro (Distrito Casco Urbano. Vigo),176000,80,3.0,1.0,Primeros_pisos,En buen estado,50,1,0,1,No especifica,0,0,0
+Piso en venta en Calle Monte Caldelas,Guillarey (Tui),60000,76,3.0,1.0,Bajo,En buen estado,0,1,0,0,No especifica,0,0,0
+"Piso en venta en Carretera de la Lanzada, 19",Adina (Santa María). Municipio de Sanxenxo,169000,76,2.0,1.0,Muchos_pisos,En buen estado,30,1,0,0,No especifica,1,0,0
+Piso en venta en Calle del Doctor Darío Durán Gómez,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),256000,110,3.0,1.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,0,0
+Piso en venta en Calle Barreiros,Cangas,145000,70,2.0,1.0,Desconocido,En buen estado,50,1,0,1,No especifica,0,1,1
+Piso en venta en Pasarón,O Burgo-Campus Universitario (Pontevedra Capital),173000,81,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Calle del Gaiteiro de Soutelo,A Seca-Os Salgueriños (Pontevedra Capital),135000,86,2.0,1.0,Desconocido,En buen estado,50,0,0,1,Gas,0,1,1
+"Piso en venta en Calle Fonte de Ons, 4 (Noalla)",Sanxenxo,165000,110,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Apartamento en venta en Calle Avenida Alfonso R. Castelao,Arcade (Soutomaior),160000,82,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Colectiva,0,0,1
+Piso en venta en Calle del Busto de Abajo,Marín,125000,100,3.0,2.0,Muchos_pisos,En buen estado,50,0,0,1,Gas,0,0,1
+"Piso en venta en Avenida de Benito Vigo, cerca de Calle de Manuel García Barros",A Estrada,115000,105,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Electrica,1,0,0
+Piso en venta en Calle Puente,Lalín,84000,75,2.0,1.0,Primeros_pisos,A estrenar,0,1,1,1,Gas,1,1,0
+Piso en venta en Calle Arturo Fontán Bouzas,Portonovo (Sanxenxo),160000,81,3.0,1.0,Primeros_pisos,Reformado,0,1,0,0,Electrica,1,1,0
+Piso en venta en Avenida del Doctor Tourón,Vilagarcía de Arousa,150000,120,4.0,2.0,Primeros_pisos,En buen estado,90,1,1,1,Colectiva,1,0,0
+Piso en venta en Calle del Couto,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),360000,112,3.0,2.0,Primeros_pisos,En buen estado,91,1,1,1,Colectiva,1,0,1
+Piso en venta en Balaidos,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),165000,104,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,No especifica,0,1,0
+Piso en venta en Calle Revolta Noalla,Sanxenxo,153000,122,2.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,No especifica,1,1,0
+Piso en venta en Calle Puerta del Sol,Baiona,279000,90,3.0,2.0,Primeros_pisos,En buen estado,50,1,1,0,Electrica,1,0,0
+Piso en venta en Calle Calle Ernestina Otero Sestelo S/N,Zona Praza de Barcelos (Pontevedra Capital),337000,155,4.0,2.0,Muchos_pisos,A estrenar,0,0,0,0,No especifica,0,1,1
+Piso en venta en Centro,Teis (Vigo),120000,103,4.0,1.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle Julia Minguillon,Centro-Areal (Distrito Casco Urbano. Vigo),297500,70,2.0,1.0,Muchos_pisos,Reformado,100,1,0,1,Colectiva,1,0,0
+Piso en venta en Calle del Canario,Casablanca-Calvario (Distrito Casco Urbano. Vigo),200000,107,3.0,2.0,Primeros_pisos,En buen estado,70,1,0,1,Gas,1,0,0
+Piso en venta en Calle del Calvario,Arcade (Soutomaior),83000,56,1.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,0,0
+"Piso en venta en Paseo de la Praia de Silgar, cerca de Calle de Rosalía de Castro",Sanxenxo,525000,136,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,1,0
+Piso en venta en Zona Plaza de Barcelos,Zona Praza de Barcelos (Pontevedra Capital),245000,136,5.0,2.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,0,0,1
+Piso en venta en Casablanca-Corte Inglés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),350000,100,2.0,2.0,Muchos_pisos,En buen estado,50,1,0,1,Gas,0,0,0
+"Piso en venta en Calle Raxo, 2 (Leopoldo Novoa)",Poio (San Juan-Albar),185000,95,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Calle Vía Norte,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),450000,140,4.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,0,1,0
+"Piso en venta en Calle de Tomás Alonso, cerca de Camino de la Seara",Praza da Industria (Distrito Casco Urbano. Vigo),181500,93,4.0,2.0,Primeros_pisos,En buen estado,66,1,0,1,Electrica,0,0,0
+Piso en venta en Calle de Ricardo Santos,Sanxenxo,269000,98,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Portonovo,Portonovo (Sanxenxo),225000,115,3.0,2.0,Primeros_pisos,En buen estado,50,1,1,0,No especifica,1,1,0
+Piso en venta en Avenida de la Toja,Poio (San Juan-Albar),162000,90,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,1
+Piso en venta en Calle Joaquin Fdez,Salceda de Caselas,94000,68,2.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle Puente,Lalín,124000,95,3.0,2.0,Primeros_pisos,A estrenar,0,1,1,1,Gas,1,1,0
+Piso en venta en Calle de Nogueira,Casablanca-Calvario (Distrito Casco Urbano. Vigo),130000,80,3.0,1.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Centro,Cangas,35000,92,3.0,1.0,Muchos_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Cangas,Cangas,140000,60,2.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,0
+Piso en venta en Calle del Padre Feijóo,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),245000,109,4.0,2.0,Primeros_pisos,En buen estado,150,0,1,1,Colectiva,1,0,0
+Piso en venta en Calle de San Roque,Vilagarcía de Arousa,75000,69,3.0,1.0,Primeros_pisos,En buen estado,15,1,1,0,Electrica,0,0,0
+"Piso en venta en Avenida de los Loureiros, cerca de Calle Prolongación Avenida de Pontevedra",Adina (Santa María). Municipio de Sanxenxo,159000,69,2.0,2.0,Desconocido,En buen estado,30,1,0,1,No especifica,1,0,0
+"Piso en venta en Calle de los Loureiros, 1",Portonovo (Sanxenxo),169900,139,4.0,2.0,Primeros_pisos,En buen estado,0,0,1,0,No especifica,0,0,1
+Piso en venta en Parroquias Rurales,Parroquias Rurales (Pontevedra Capital),120000,85,3.0,1.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,0,0
+Apartamento en venta en Ponteareas,Ponteareas,85000,70,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,0,0,1
+Piso en venta en Tui,Tui,155000,96,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+Piso en venta en Calle de Eduardo Iglesias,Centro-Areal (Distrito Casco Urbano. Vigo),620000,280,7.0,3.0,Desconocido,En buen estado,100,0,0,1,No especifica,1,1,0
+"Piso en venta en Avenida das Camelias, cerca de Calle de Pi i Margall",Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),200000,96,2.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+Piso en venta en Calle de Bolivia,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),460000,179,5.0,3.0,Primeros_pisos,En buen estado,200,1,1,1,Colectiva,1,0,0
+Piso en venta en Portonovo,Portonovo (Sanxenxo),200000,140,4.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,No especifica,0,1,0
+Piso en venta en Calle de Otero Pedrayo,Gondomar,195000,86,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Gas,1,0,0
+Piso en venta en Avenida del Covelo,Poio (San Juan-Albar),140000,107,2.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Avenida La Guardia,A Guarda,66000,70,2.0,1.0,Primeros_pisos,En buen estado,0,1,1,0,Electrica,0,0,0
+"Piso en venta en Calle San Blas - Salcedo, nº 18",Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),180000,132,4.0,2.0,Primeros_pisos,En buen estado,0,0,1,0,Colectiva,0,0,1
+"Piso en venta en Avenida de la Gran Vía, cerca de Calle de Zamora",O Castro (Distrito Casco Urbano. Vigo),400000,115,4.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+Piso en venta en Aldán,Cangas,175000,106,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Sanxenxo,Sanxenxo,290000,100,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,1,1
+Piso en venta en Calle de Moaña,Coia (Distrito Casco Urbano. Vigo),85000,72,3.0,1.0,Muchos_pisos,A reformar,30,0,0,0,Gas,0,0,1
+Piso en venta en Sanxenxo,Sanxenxo,180000,60,2.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Calle de Paraguay,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),125000,100,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,1,0
+Piso en venta en Cangas,Cangas,180000,75,2.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,0,0,0
+Piso en venta en Mos,Mos (Santa Eulalia),155000,85,3.0,2.0,Primeros_pisos,A estrenar,0,1,0,1,Gas,1,0,0
+Piso en venta en Calle Arturo Fontan Bouzas,Portonovo (Sanxenxo),160000,81,3.0,1.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,1,0,0
+"Piso en venta en Calle de la Curtidoira, 5",Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),240000,94,3.0,2.0,Muchos_pisos,En buen estado,0,0,0,1,Gas,0,0,1
+Piso en venta en Calle de Paulino Freire,Bouzas (Distrito Casco Urbano. Vigo),450000,193,5.0,3.0,Desconocido,En buen estado,0,0,0,1,Gas,1,0,0
+Piso en venta en Urzaiz-Calvario,Casablanca-Calvario (Distrito Casco Urbano. Vigo),270000,120,3.0,2.0,Muchos_pisos,En buen estado,69,1,0,0,Colectiva,1,0,1
+Piso en venta en Calle Balea (San Vicente Do Mar),O Grove (Casco Urbano),135000,65,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,0,No especifica,1,0,0
+"Piso en venta en Avenida de la Gran Vía, cerca de Calle de Ecuador",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),190000,156,3.0,1.0,Desconocido,A reformar,0,0,0,1,Colectiva,0,0,1
+"Piso en venta en Calle Aragón, cerca de Calle de Redomeira",Casablanca-Calvario (Distrito Casco Urbano. Vigo),145000,60,1.0,1.0,Muchos_pisos,En buen estado,55,1,1,1,Electrica,1,0,0
+Piso en venta en Avenida del Doctor Tourón,Vilagarcía de Arousa,130000,100,4.0,2.0,Primeros_pisos,En buen estado,50,1,1,1,Gas,0,0,0
+"Piso en venta en Rúa de Castelao, cerca de Lugar de Confín",O Grove (Casco Urbano),153000,115,6.0,3.0,Primeros_pisos,En buen estado,50,1,0,0,No especifica,1,1,0
+Piso en venta en Rúa Cordón,O Burgo-Campus Universitario (Pontevedra Capital),185000,90,3.0,2.0,Muchos_pisos,A estrenar,0,1,1,1,Gas,1,1,1
+Piso en venta en Calle Po-308 (As Pitas),Adina (Santa María). Municipio de Sanxenxo,156000,71,2.0,2.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,1,1
+Piso en venta en Porriño (O),O Porriño,155000,90,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+Piso en venta en Gondomar,Gondomar,148000,62,2.0,1.0,Primeros_pisos,En buen estado,0,1,1,0,No especifica,1,0,1
+Piso en venta en Darbo (Santa María),Darbo (Santa María). Municipio de Cangas,117000,67,2.0,2.0,Primeros_pisos,En buen estado,0,0,0,1,No especifica,0,0,0
+Piso en venta en Calle de San Salvador,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),599000,265,6.0,4.0,Muchos_pisos,En buen estado,220,1,0,1,Colectiva,1,0,0
+Piso en venta en Marín,Marín,86000,112,3.0,2.0,Muchos_pisos,A reformar,0,0,0,0,No especifica,0,0,1
+"Piso en venta en Calle Doutor Touriño Gamallo, nº 14",Marín,119000,90,3.0,2.0,Desconocido,Reformado,15,1,0,0,Electrica,0,0,0
+Apartamento en venta en Avenida de Emilio Martínez Garrido,Casablanca-Calvario (Distrito Casco Urbano. Vigo),118900,42,1.0,1.0,Primeros_pisos,En buen estado,48,1,0,1,Electrica,0,0,0
+"Piso en venta en Calle de Cambria, 3",A Seca-Os Salgueriños (Pontevedra Capital),149000,97,3.0,2.0,Desconocido,En buen estado,30,0,0,0,Gas,0,0,0
+"Piso en venta en Calle de Cristo, cerca de Calle de la Cruz Branca",Casablanca-Calvario (Distrito Casco Urbano. Vigo),135000,50,1.0,1.0,Desconocido,En buen estado,55,1,0,1,Gas,1,0,0
+Piso en venta en Casco Antiguo,Centro-Echegaray (Pontevedra Capital),450000,225,5.0,3.0,Primeros_pisos,En buen estado,0,0,0,0,Gas,0,1,1
+Piso en venta en Calle Vía Norte,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),300000,128,4.0,2.0,Muchos_pisos,En buen estado,160,1,1,1,Colectiva,0,0,0
+"Piso en venta en Travesía del Arenal, 3",Adina (Santa María). Municipio de Sanxenxo,290000,120,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+"Piso en venta en Calle de Benito Corbal, 58",Zona Praza de Barcelos (Pontevedra Capital),245000,90,3.0,3.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,0,0,1
+Piso en venta en Calle Rua Do.Ecuador,Casablanca-Calvario (Distrito Casco Urbano. Vigo),349000,123,3.0,2.0,Primeros_pisos,En buen estado,100,1,0,1,Colectiva,1,0,0
+"Piso en venta en Avenida Vigo, cerca de Camino de los Bosques",Chapela (San Fausto). Municipio de Redondela,145000,110,3.0,1.0,Muchos_pisos,En buen estado,90,0,0,1,No especifica,0,0,1
+Piso en venta en Sanxenxo Playa,Sanxenxo,444000,92,3.0,2.0,Muchos_pisos,En buen estado,50,1,1,1,Electrica,0,1,0
+"Piso en venta en Travesía de Vigo, cerca de Callejón del Viso",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),195000,100,4.0,2.0,Primeros_pisos,En buen estado,141,1,0,1,Colectiva,1,0,0
+Piso en venta en A Seca-Os Salgueriños,A Seca-Os Salgueriños (Pontevedra Capital),180000,80,2.0,2.0,Muchos_pisos,En buen estado,0,0,1,1,Gas,0,0,1
+Piso en venta en Calle de Ricardo Santos,Sanxenxo,250000,82,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Cangas,Cangas,150000,65,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,1,0,0
+"Piso en venta en Calle Fonte de Ons, nº 30",Sanxenxo,149900,82,2.0,2.0,Primeros_pisos,En buen estado,30,1,1,1,No especifica,1,0,0
+Piso en venta en Calle de Rosario,Casablanca-Calvario (Distrito Casco Urbano. Vigo),285000,120,3.0,2.0,Desconocido,En buen estado,90,1,0,1,No especifica,1,1,0
+Piso en venta en Barcelos,Zona Praza de Barcelos (Pontevedra Capital),165000,75,4.0,1.0,Muchos_pisos,En buen estado,56,1,0,0,Electrica,0,0,1
+Piso en venta en Calle de Augusto González Besada,Sanxenxo,170000,90,3.0,2.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Montalvo,Adina (Santa María). Municipio de Sanxenxo,156000,71,2.0,2.0,Primeros_pisos,En buen estado,100,1,1,0,No especifica,1,1,0
+Piso en venta en San Roque,Vilagarcía de Arousa,95000,129,5.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,0,0,0
+"Piso en venta en Calle de Iglesias Vilarelle, 5",Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),200000,111,4.0,2.0,Desconocido,En buen estado,70,1,0,1,No especifica,0,1,1
+Piso en venta en Ponteareas,Ponteareas,124000,100,3.0,2.0,Desconocido,En buen estado,0,1,0,1,Colectiva,0,0,1
+Piso en venta en Cangas,Cangas,125000,50,2.0,1.0,Desconocido,En buen estado,0,1,0,0,No especifica,1,0,0
+"Piso en venta en Calle Praia Montalvo, nº 10",Adina (Santa María). Municipio de Sanxenxo,115000,40,1.0,1.0,Desconocido,En buen estado,0,0,0,1,No especifica,0,1,0
+Apartamento en venta en Calle Pintor Urbano Lugrís,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),119000,48,1.0,1.0,Primeros_pisos,En buen estado,35,1,0,0,Gas,1,1,1
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,175000,95,3.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Gas,1,0,0
+Piso en venta en Salceda de Caselas,Salceda de Caselas,95000,100,3.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,No especifica,1,1,0
+"Piso en venta en Calle Pino, cerca de Calle de Fátima",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),260000,140,4.0,2.0,Muchos_pisos,En buen estado,100,1,0,1,Electrica,1,0,1
+Piso en venta en Núcleo Urbano,Cangas,145000,63,2.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Portonovo,Portonovo (Sanxenxo),110000,62,1.0,1.0,Primeros_pisos,En buen estado,30,1,0,0,No especifica,1,0,0
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,175000,100,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+"Piso en venta en Calle del Miño, 23",Salvaterra de Miño,93500,80,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,0,Electrica,1,1,0
+Piso en venta en Calle Sanxenxo,Sanxenxo,350000,95,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+"Piso en venta en Calle de Iglesias Vilarelle, 5",Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),200000,110,4.0,2.0,Primeros_pisos,En buen estado,0,0,1,1,Gas,0,0,0
+Apartamento en venta en Doblada,Casablanca-Calvario (Distrito Casco Urbano. Vigo),155000,50,1.0,1.0,Bajo,En buen estado,50,0,0,0,No especifica,0,0,0
+Piso en venta en Santiago de Vigo,Centro-Areal (Distrito Casco Urbano. Vigo),479000,200,4.0,2.0,Primeros_pisos,En buen estado,0,0,0,1,No especifica,0,1,0
+Piso en venta en Sanxenxo,Sanxenxo,252000,109,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Rúa Fontoura,Salvaterra de Miño,129000,102,3.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Colectiva,1,0,0
+Piso en venta en Cangas,Cangas,150000,110,3.0,2.0,Desconocido,En buen estado,50,0,0,1,No especifica,1,1,0
+"Piso en venta en Calle del Calvario, 20",A Guarda,115000,101,3.0,2.0,Primeros_pisos,En buen estado,30,1,0,1,No especifica,0,0,0
+"Piso en venta en Calle Emilia Pardo Bazán, cerca de Avenida de Madrid",A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),250000,90,3.0,2.0,Primeros_pisos,En buen estado,120,1,0,0,Gas,1,0,0
+Piso en venta en Calle de la Constitución,Sanxenxo,220000,104,3.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,0,1,1
+Piso en venta en Calle Calle Calle Ernestina Otero Sestelo,Zona Praza de Barcelos (Pontevedra Capital),308000,142,3.0,2.0,Muchos_pisos,A estrenar,0,0,0,0,No especifica,0,1,0
+"Piso en venta en Calle Progreso, cerca de Calle de Castelao",Sanxenxo,340000,90,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,0
+"Piso en venta en Paseo de Colón, 15",Campo da Torre-Mollabao (Pontevedra Capital),165000,90,3.0,2.0,Desconocido,En buen estado,0,0,0,0,Colectiva,0,0,0
+Piso en venta en Calle del Pintor Laxeiro,Praza da Independencia (Distrito Casco Urbano. Vigo),230000,120,4.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Colectiva,0,0,0
+Piso en venta en Casablanca-Corte Inglés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),190000,88,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Electrica,0,0,0
+Piso en venta en Silleda,Silleda (Casco Urbano),40000,93,3.0,1.0,Muchos_pisos,En buen estado,0,1,1,0,No especifica,0,0,1
+"Piso en venta en Calle de Manuel Lomba, 2",A Guarda,58000,94,2.0,1.0,Primeros_pisos,A reformar,0,0,0,0,No especifica,0,0,0
+Piso en venta en Rúa Fontoura,Salvaterra de Miño,131000,102,3.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Colectiva,1,0,0
+Piso en venta en Calle Galicia,A Guarda,140000,181,5.0,3.0,Primeros_pisos,En buen estado,0,1,1,1,Colectiva,1,0,0
+"Piso en venta en Calle Progreso, 43, cerca de Calle Sanxenxo",Portonovo (Sanxenxo),340000,103,3.0,2.0,Muchos_pisos,En buen estado,70,1,0,0,No especifica,1,0,0
+Piso en venta en Rúa Vigo,Sanxenxo,220000,93,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,0
+Piso en venta en Arenal-Centro,Centro-Areal (Distrito Casco Urbano. Vigo),120000,85,2.0,1.0,Muchos_pisos,A reformar,0,0,0,0,No especifica,0,0,0
+Piso en venta en Cangas,Cangas,175000,108,3.0,2.0,Bajo,En buen estado,0,0,1,0,No especifica,1,1,0
+"Piso en venta en Calle Real, 12",Centro-Echegaray (Pontevedra Capital),275000,115,3.0,2.0,Desconocido,En buen estado,0,0,0,1,Gas,0,1,0
+Piso en venta en Calle de La Coruña,Devesa (Santa Maria de Salceda). Municipio de Salceda de Caselas,83000,84,3.0,2.0,Primeros_pisos,A estrenar,50,1,0,0,Electrica,1,0,0
+Piso en venta en Eduardo Pondal,Zona Praza de Barcelos (Pontevedra Capital),295000,101,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,1,0
+Piso en venta en Sanxenxo,Sanxenxo,238000,116,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Gondomar,Gondomar,137000,244,3.0,2.0,Primeros_pisos,En buen estado,0,0,1,1,No especifica,0,0,0
+Piso en venta en Calle Caldelas,Tui,60000,76,3.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,Gas,0,0,0
+Piso en venta en Rúa Fontoura,Salvaterra de Miño,127000,102,3.0,2.0,Primeros_pisos,A estrenar,0,1,0,1,Colectiva,1,0,0
+Piso en venta en Rúa Cordón,O Burgo-Campus Universitario (Pontevedra Capital),185000,90,3.0,2.0,Desconocido,En buen estado,50,0,0,0,No especifica,1,1,1
+Piso en venta en Calle del Alcalde Vázquez Varela,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),389000,90,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Centro,Cangas,65000,120,3.0,1.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Tui,Tui,60000,76,3.0,1.0,Bajo,En buen estado,0,0,0,0,No especifica,0,0,0
+"Piso en venta en Avenida das Camelias, cerca de Calle de Juan Ramón Jiménez",Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),355000,143,4.0,3.0,Desconocido,En buen estado,100,0,0,1,No especifica,0,1,0
+Apartamento en venta en Calle Aguia,Casablanca-Calvario (Distrito Casco Urbano. Vigo),179600,80,2.0,1.0,Muchos_pisos,A estrenar,70,1,0,1,Colectiva,0,0,0
+Piso en venta en Calle en Real,Moaña (Casco Urbano),140000,109,4.0,3.0,Muchos_pisos,En buen estado,30,1,0,1,No especifica,0,0,0
+"Piso en venta en Calle de Casimiro Gómez, 18",Zona Praza de Barcelos (Pontevedra Capital),165000,94,3.0,1.0,Desconocido,En buen estado,70,0,0,1,Electrica,0,0,1
+Piso en venta en Calle de Hernán Cortés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),255000,110,3.0,2.0,Muchos_pisos,En buen estado,70,1,0,1,Gas,1,0,0
+"Piso en venta en Avenida de Buenos Aires, 41",Teis (Vigo),115000,97,3.0,1.0,Muchos_pisos,A reformar,0,0,0,1,No especifica,0,0,0
+Piso en venta en Poio (San Juan-Albar),Poio (San Juan-Albar),150000,65,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,99900,100,3.0,1.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,1,1
+"Piso en venta en Calle Estrada Circunvalación, 53, Esc",Adina (Santa María). Municipio de Sanxenxo,320000,142,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+"Piso en venta en Rúa de Lugo, 2",Salceda de Caselas,106320,85,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,1,0
+"Piso en venta en Calle del Pintor Colmeiro, 23",O Castro (Distrito Casco Urbano. Vigo),296000,91,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Calle de Gonzalo Torrente Ballester,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),198000,96,4.0,2.0,Primeros_pisos,En buen estado,80,1,0,1,Colectiva,1,0,0
+Piso en venta en Rúa Fontoura,Salvaterra de Miño,125000,102,3.0,2.0,Primeros_pisos,A estrenar,0,1,0,1,Colectiva,1,0,0
+"Piso en venta en Avenida das Camelias, cerca de Calle de Juan Ramón Jiménez",Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),280000,120,4.0,2.0,Desconocido,En buen estado,50,0,0,1,No especifica,1,1,0
+Piso en venta en Campolongo,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),160000,115,4.0,2.0,Primeros_pisos,En buen estado,100,1,1,0,Colectiva,0,1,0
+Piso en venta en Fernández Ladreda-Ciudad de Piedra,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),156000,115,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Calle del Alcalde Vázquez Varela,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),679000,149,4.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,1,1
+Piso en venta en Carretera de la Lanzada,Sanxenxo,110000,62,1.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Avenida de Médico Ballina,O Burgo-Campus Universitario (Pontevedra Capital),120000,70,2.0,2.0,Bajo,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Pumariño,Marín (Escuela Naval Militar),150000,112,4.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,Gas,1,1,0
+Piso en venta en Calle de Ricardo Santos,Sanxenxo,240000,85,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Poio,Poio (San Juan-Albar),160000,94,3.0,3.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+Piso en venta en Castrelos-Balaídos-Miñoca,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),166000,111,3.0,2.0,Muchos_pisos,A reformar,0,0,0,1,No especifica,1,1,0
+Piso en venta en Avenida de Santo Domingo de Guzmán,Salcidos (A Guarda),126000,91,3.0,2.0,Primeros_pisos,En buen estado,40,1,0,1,Colectiva,1,0,0
+Piso en venta en O Hio (Santo Andre),O Hio (Santo Andre). Municipio de Cangas,165000,80,2.0,1.0,Primeros_pisos,En buen estado,50,1,0,1,Electrica,1,0,1
+Piso en venta en Avda de Lugo,A Seca-Os Salgueriños (Pontevedra Capital),160000,102,3.0,2.0,Muchos_pisos,En buen estado,70,1,0,1,Colectiva,1,1,0
+Piso en venta en Sanxenxo Playa,Sanxenxo,330000,93,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,0,No especifica,0,1,0
+Piso en venta en Aragón-Travesía,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),220000,82,3.0,2.0,Muchos_pisos,En buen estado,42,1,0,1,Electrica,0,0,1
+Piso en venta en Centro,Vilagarcía de Arousa,214000,103,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,0,1,0
+Piso en venta en Calle de La Coruña,Salceda de Caselas,126500,93,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Electrica,1,0,0
+Apartamento en venta en Calle Carretera Codeseda A -Campo,Campo Lameiro,65000,78,2.0,1.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,1
+"Piso en venta en Calle La Cal, cerca de Calle Concepción Arenal",A Guarda,125000,93,3.0,2.0,Muchos_pisos,En buen estado,0,1,1,0,Colectiva,1,0,0
+Piso en venta en Calle Profesor Hermida,Sanxenxo,350000,112,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Benito Corbal,Zona Praza de Barcelos (Pontevedra Capital),305000,116,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Centro - Echegaray,Zona Praza de Barcelos (Pontevedra Capital),245000,136,4.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Electrica,0,0,1
+"Piso en venta en Avenida de Ramón Nieto, 503, cerca de Calle de Penis",Cabral-Candeán (Vigo),119000,77,1.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,0,0,1
+Piso en venta en Centro,Zona Praza de Barcelos (Pontevedra Capital),240000,94,3.0,2.0,Muchos_pisos,En buen estado,70,1,1,1,Gas,1,0,0
+Piso en venta en Teis,Teis (Vigo),140000,135,3.0,1.0,Primeros_pisos,En buen estado,40,1,0,0,Gas,0,0,0
+Piso en venta en Sanxenxo,Sanxenxo,225000,100,3.0,2.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,1,1
+Piso en venta en Calle de las Viñas,Poio (San Salvador),159000,79,2.0,2.0,Desconocido,En buen estado,50,1,0,1,Gas,1,0,0
+Piso en venta en Calle de Paulino Freire,Bouzas (Distrito Casco Urbano. Vigo),450000,165,5.0,3.0,Primeros_pisos,En buen estado,0,1,1,1,Gas,1,0,0
+Piso en venta en Tui,Tui,120000,92,3.0,2.0,Primeros_pisos,En buen estado,0,0,1,0,Gas,0,0,0
+"Piso en venta en Calle Nueva del Couso, 12",Calvario (O Rosal),85000,101,3.0,2.0,Desconocido,En buen estado,30,1,0,0,No especifica,1,1,0
+Piso en venta en Chapela (San Fausto),Chapela (San Fausto). Municipio de Redondela,125000,104,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,0,Colectiva,0,0,0
+"Piso en venta en Calle de Rosalía de Castro, cerca de Avenida de Manuel del Palacio",Campo da Torre-Mollabao (Pontevedra Capital),375000,180,4.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+Apartamento en venta en Salceda de Caselas,Salceda de Caselas,105000,70,2.0,2.0,Primeros_pisos,En buen estado,45,1,0,0,Electrica,1,0,0
+Piso en venta en Plaza Maior,Ponteareas,120000,100,3.0,2.0,Primeros_pisos,En buen estado,50,1,1,1,Gas,1,0,0
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,128000,117,4.0,2.0,Muchos_pisos,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Villagarcía de Arousa,Vilagarcía de Arousa,150000,113,4.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Colectiva,1,0,0
+Piso en venta en Avenida de Luis Rocafort,Sanxenxo,145000,51,1.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,Electrica,1,0,0
+Piso en venta en A Guarda,A Guarda,85000,68,3.0,1.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,1,0,0
+Piso en venta en Rúa de Abeleira Menéndez,Casco Vello (Distrito Casco Urbano. Vigo),260000,114,3.0,1.0,Muchos_pisos,A reformar,0,0,1,0,Gas,0,0,1
+Piso en venta en Calle de Rodrigo de Mendoza,Vilagarcía de Arousa,140000,142,3.0,2.0,Muchos_pisos,En buen estado,50,0,1,1,No especifica,1,0,0
+Piso en venta en Calle de Concepción Arenal,Cangas,220000,74,2.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+"Piso en venta en Avenida de Médico Ballina, 37",O Burgo-Campus Universitario (Pontevedra Capital),126000,65,2.0,1.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,0,0
+Piso en venta en Núcleo Urbano,Cangas,170000,90,3.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,0,0
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,155000,100,3.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,Colectiva,0,0,0
+Apartamento en venta en Loureiro Crespo,A Seca-Os Salgueriños (Pontevedra Capital),165000,78,2.0,2.0,Primeros_pisos,En buen estado,0,1,1,0,Gas,1,0,0
+Piso en venta en Paseo de la Praia de Silgar,Adina (Santa María). Municipio de Sanxenxo,444000,90,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,0
+Piso en venta en Sanxenxo Playa,Sanxenxo,240000,66,2.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Teis,Teis (Vigo),165000,81,2.0,1.0,Muchos_pisos,En buen estado,20,1,0,0,Gas,1,0,0
+Piso en venta en Hospital,Zona Praza de Barcelos (Pontevedra Capital),160000,98,3.0,2.0,Muchos_pisos,En buen estado,0,0,0,1,Electrica,0,0,0
+Apartamento en venta en Calle de San Mauro,A Seca-Os Salgueriños (Pontevedra Capital),140000,51,2.0,1.0,Muchos_pisos,En buen estado,36,1,0,1,Gas,1,0,0
+Piso en venta en Calle de Policarpo Sanz,Centro-Areal (Distrito Casco Urbano. Vigo),350000,75,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle Avenida Xosé María Castroviejo,Cangas,245000,101,3.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+"Piso en venta en Calle de Gerardo Campos Ramos, 8",Teis (Vigo),115000,90,3.0,1.0,Muchos_pisos,En buen estado,0,1,0,0,Electrica,0,0,0
+"Piso en venta en Paseo de la Praia de Silgar, cerca de Calle Camelios",Sanxenxo,235000,70,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Coia,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),175000,75,3.0,2.0,Muchos_pisos,En buen estado,90,1,1,1,Gas,0,0,0
+Piso en venta en Centro,Salceda de Caselas,115000,90,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Electrica,1,0,1
+Piso en venta en Plaza de Galicia,Centro-Echegaray (Pontevedra Capital),165000,65,2.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,0,0,1
+Piso en venta en Calle del Arenal,Centro-Areal (Distrito Casco Urbano. Vigo),237000,80,2.0,1.0,Muchos_pisos,En buen estado,0,1,1,1,No especifica,0,0,1
+"Piso en venta en Avenida del Covelo, 13",Covelo (Santa Marina),250000,95,3.0,2.0,Desconocido,En buen estado,0,0,0,0,Gas,1,0,0
+Piso en venta en A Guarda,A Guarda,89000,98,3.0,2.0,Bajo,En buen estado,0,0,0,0,No especifica,0,0,1
+Piso en venta en Tui,Tui,120000,130,4.0,2.0,Primeros_pisos,En buen estado,0,0,1,0,Gas,0,0,1
+"Piso en venta en Calle de Madrid, 18",Sanxenxo,360000,86,2.0,2.0,Muchos_pisos,En buen estado,0,1,1,0,No especifica,1,0,0
+Piso en venta en Calle Avenida Xosé María Castroviejo,Cangas,195000,87,2.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+Piso en venta en Adina (Santa María),Adina (Santa María). Municipio de Sanxenxo,175000,60,2.0,1.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en O Castro,O Castro (Distrito Casco Urbano. Vigo),264000,143,4.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+Piso en venta en Teis,Teis (Vigo),165000,82,2.0,1.0,Muchos_pisos,En buen estado,30,0,0,0,No especifica,1,0,0
+Piso en venta en Chapela,Chapela (San Fausto). Municipio de Redondela,131000,64,2.0,1.0,Desconocido,En buen estado,0,1,0,1,Electrica,0,0,0
+"Piso en venta en Avenida de la Gran Vía, cerca de Calle de Zamora",A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),399000,200,7.0,4.0,Muchos_pisos,A estrenar,70,1,0,1,Gas,1,1,0
+Piso en venta en Núcleo Urbano,Cangas,185000,87,2.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+"Piso en venta en Avenida de Eduardo Pondal, 50",Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),250000,100,3.0,2.0,Desconocido,En buen estado,70,0,0,1,No especifica,1,0,0
+Piso en venta en Calle de Perfecto Feijóo,Zona Praza de Barcelos (Pontevedra Capital),85000,124,3.0,1.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Salceda de Caselas,Salceda de Caselas,105000,61,2.0,2.0,Primeros_pisos,En buen estado,44,1,0,0,Electrica,1,0,0
+Piso en venta en Centro - Echegaray,Centro-Echegaray (Pontevedra Capital),215000,125,4.0,3.0,Primeros_pisos,En buen estado,15,1,0,1,Colectiva,0,0,0
+Piso en venta en O Hío,Cangas,155000,53,2.0,1.0,Desconocido,En buen estado,0,1,0,0,No especifica,1,1,0
+"Piso en venta en Avenida de Benito Vigo, cerca de Calle de Serafín Pazo",A Estrada,240000,161,3.0,2.0,Primeros_pisos,A estrenar,50,1,0,1,Gas,1,0,0
+Piso en venta en La Seca - los Salgueriños,Centro-Echegaray (Pontevedra Capital),99000,109,3.0,2.0,Bajo,En buen estado,0,0,1,0,No especifica,0,0,0
+Piso en venta en Calle Avenida Xosé María Castroviejo,Cangas,235000,101,3.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+Piso en venta en Fernández Ladreda-Ciudad de Piedra,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),180000,85,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Salceda de Caselas,Salceda de Caselas,119500,93,3.0,2.0,Primeros_pisos,En buen estado,58,1,0,0,Electrica,1,0,0
+Piso en venta en Arenal-Centro,Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),165000,101,3.0,2.0,Muchos_pisos,En buen estado,40,1,0,0,Electrica,1,0,0
+"Piso en venta en Camino Deputación-O Rosal, nº 10",Calvario (O Rosal),100000,88,2.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,No especifica,1,0,0
+Piso en venta en Calle de Ecuador,Casablanca-Calvario (Distrito Casco Urbano. Vigo),380000,116,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,0,0,0
+Piso en venta en Hospital Provincial,Zona Praza de Barcelos (Pontevedra Capital),145000,85,3.0,1.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,0,0,0
+Piso en venta en Calle de Elio Antonio de Nebrija,Praza da Industria (Distrito Casco Urbano. Vigo),225000,106,4.0,2.0,Muchos_pisos,En buen estado,85,1,0,1,Colectiva,1,0,0
+Piso en venta en Salvaterra de Miño,Salvaterra de Miño,150000,109,3.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Gas,1,0,1
+Piso en venta en Calle del Doctor Cadaval,Centro-Areal (Distrito Casco Urbano. Vigo),150000,88,2.0,2.0,Muchos_pisos,A reformar,58,0,0,1,No especifica,0,0,0
+"Piso en venta en Avenida de la Gran Vía, cerca de Calle de Paraguay",Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),320000,134,4.0,2.0,Desconocido,En buen estado,100,0,0,0,Gas,1,1,0
+Piso en venta en Calle del Consistorio,Sanxenxo,285000,97,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,0
+Apartamento en venta en A Cañiza,A Cañiza,435000,97,2.0,1.0,Desconocido,En buen estado,100,1,0,0,No especifica,0,1,0
+Piso en venta en Calle Xeral,Silleda (Casco Urbano),50000,188,4.0,2.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Avenida Recinto Ferial,Silleda (Casco Urbano),32000,114,3.0,2.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+"Piso en venta en Rúa Cordón, 11",O Burgo-Campus Universitario (Pontevedra Capital),185000,110,3.0,2.0,Muchos_pisos,En buen estado,0,0,1,1,Gas,0,0,1
+Piso en venta en Calle del Progreso,A Cañiza (Resto Parroquia),49000,118,2.0,1.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Avenida del Marqués de Valterra,Parroquias Rurales (Pontevedra Capital),90000,100,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,0,0
+Piso en venta en Las Pistas,Vilagarcía de Arousa,275000,100,3.0,2.0,Bajo,En buen estado,70,1,0,1,No especifica,0,1,1
+Piso en venta en Campo da Torre-Mollabao,Campo da Torre-Mollabao (Pontevedra Capital),165000,90,3.0,2.0,Muchos_pisos,A reformar,0,0,1,0,Colectiva,1,0,0
+Piso en venta en Caldas de Reis,Caldas de Reis (Casco Urbano),135000,108,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Electrica,1,0,0
+Piso en venta en Calle de Antonio Palacios,O Porriño,160000,110,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+"Apartamento en venta en Calle de Tomás Alonso, 4, cerca de Calle de Pi i Margall",Berbés-Peritos (Distrito Casco Urbano. Vigo),218000,80,2.0,2.0,Primeros_pisos,En buen estado,35,1,1,1,Gas,1,0,1
+Piso en venta en Núcleo Urbano,Cangas,165000,110,3.0,2.0,Desconocido,En buen estado,50,1,0,1,No especifica,1,1,0
+"Piso en venta en Travesía de Vigo, cerca de Calle Pino",Casablanca-Calvario (Distrito Casco Urbano. Vigo),168000,80,3.0,1.0,Muchos_pisos,A reformar,30,1,1,1,No especifica,0,0,0
+"Piso en venta en Calle La Cal, 4, cerca de Calle Concepción Arenal",Camposancos (A Guarda),106000,60,3.0,1.0,Desconocido,En buen estado,0,1,0,1,Colectiva,1,1,0
+Piso en venta en Centro,Salceda de Caselas,115000,90,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Electrica,1,0,1
+"Piso en venta en Avenida de las Chancelas, 4, cerca de Calle de la Costa de Abaixo",Combarro (San Roque). Municipio de Poio,200000,83,2.0,2.0,Desconocido,En buen estado,30,0,0,1,No especifica,1,1,0
+Piso en venta en Calle del Alcalde Vázquez Varela,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),215000,68,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,0,0,0
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,129000,125,3.0,2.0,Primeros_pisos,Reformado,0,0,1,0,Electrica,0,0,0
+Piso en venta en Praza España-Zona Corte Inglés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),275000,104,3.0,2.0,Primeros_pisos,Reformado,0,0,0,1,No especifica,0,1,0
+Piso en venta en Calle Ponte Nova (Da),Campo da Torre-Mollabao (Pontevedra Capital),92000,82,3.0,1.0,Bajo,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Fexdega,Vilagarcía de Arousa,125000,79,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,0,0
+Piso en venta en Ramon Nieto,Lavadores (Vigo),125000,63,1.0,1.0,Bajo,En buen estado,0,1,0,0,No especifica,0,0,1
+Piso en venta en Magdalena,Cangas,99000,85,2.0,1.0,Desconocido,En buen estado,0,1,0,0,Electrica,1,0,0
+Piso en venta en Cangas,Cangas,110000,70,2.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,1,1,0
+Piso en venta en Arenal-Centro,Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),149000,90,3.0,2.0,Desconocido,A reformar,60,0,0,1,No especifica,0,0,0
+Piso en venta en Calle del Doctor Canoa,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),170000,85,3.0,2.0,Primeros_pisos,En buen estado,0,0,1,1,No especifica,1,1,0
+Piso en venta en Rúa de Ignacio Grobas,Casablanca-Calvario (Distrito Casco Urbano. Vigo),200000,95,3.0,2.0,Muchos_pisos,En buen estado,70,1,0,1,Gas,1,0,0
+Piso en venta en Traviesas-Plaza Independencia,Praza da Independencia (Distrito Casco Urbano. Vigo),235000,125,4.0,2.0,Primeros_pisos,En buen estado,60,1,0,0,Gas,1,1,1
+Piso en venta en Rúa Fontoura,Salvaterra de Miño,124000,110,3.0,2.0,Primeros_pisos,A estrenar,0,1,0,1,Colectiva,1,0,0
+Apartamento en venta en Campolongo,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),175000,75,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+"Piso en venta en Calle Manuel Suárez Marquier, 2",Calvario (O Rosal),101000,85,2.0,2.0,Desconocido,En buen estado,30,1,0,1,No especifica,1,0,0
+Piso en venta en Calle Lamazanes,Ponteareas,95000,75,2.0,1.0,Muchos_pisos,A estrenar,30,1,0,0,Electrica,1,0,0
+Piso en venta en Calle de Victoriano Pérez Vidal,Salceda de Caselas,96000,70,2.0,1.0,Primeros_pisos,En buen estado,30,1,0,1,Electrica,1,0,0
+"Piso en venta en Avenida de Eduardo Pondal, 50",Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),250000,110,3.0,2.0,Muchos_pisos,En buen estado,0,0,0,1,Gas,0,0,1
+Piso en venta en Lavadores,Lavadores (Vigo),199000,100,3.0,2.0,Primeros_pisos,En buen estado,70,1,0,1,No especifica,1,0,0
+"Piso en venta en Calle de Rosalía de Castro, 15, cerca de Calle de los Palamios",Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),299250,93,2.0,2.0,Desconocido,En buen estado,0,0,0,0,Gas,1,0,0
+Piso en venta en Rúa Fontoura,Salvaterra de Miño,98000,86,2.0,2.0,Primeros_pisos,A estrenar,0,1,0,1,Colectiva,1,0,0
+"Piso en venta en Avenida de María Victoria Moreno, 21",Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),175000,144,4.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Electrica,0,0,0
+Piso en venta en Calle de Ricardo Santos,Sanxenxo,260000,79,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en A Guarda,A Guarda,110000,95,2.0,2.0,Primeros_pisos,En buen estado,30,1,0,1,Gas,0,0,0
+Piso en venta en Sanguiñeda (Santa Maria),Sanguiñeda (Santa Maria). Municipio de Mos,150000,97,3.0,2.0,Primeros_pisos,En buen estado,46,1,0,1,Gas,1,0,0
+Piso en venta en Calle Puente,Lalín,259000,272,4.0,3.0,Muchos_pisos,A estrenar,0,1,0,1,Gas,1,1,1
+Piso en venta en Las Carolinas,Vilagarcía de Arousa,165000,90,3.0,2.0,Muchos_pisos,En buen estado,70,1,0,1,Gas,1,0,0
+"Piso en venta en Calle de Concepción Arenal, 3",Ponte-Caldelas (Ponte Caldelas),110000,100,3.0,2.0,Muchos_pisos,En buen estado,0,1,1,0,Gas,0,0,1
+Piso en venta en Cangas,Cangas,220000,74,2.0,2.0,Desconocido,A estrenar,0,0,0,1,No especifica,1,1,0
+Piso en venta en A Estrada,A Estrada,47500,83,2.0,1.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,1,0
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,150000,100,3.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,Gas,0,0,0
+Piso en venta en Centro-Areal,Centro-Areal (Distrito Casco Urbano. Vigo),255000,90,3.0,2.0,Muchos_pisos,En buen estado,100,1,0,1,Colectiva,1,1,0
+Piso en venta en Centro Urbano,Praza da Industria (Distrito Casco Urbano. Vigo),195000,95,3.0,2.0,Bajo,En buen estado,0,0,0,0,No especifica,1,0,0
+Piso en venta en Sanxenxo,Sanxenxo,170000,105,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,No especifica,1,1,0
+Piso en venta en O Grove (Resto Parroquia),O Grove (Resto Parroquia),163000,155,4.0,3.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,0
+Piso en venta en Calle Avenida Xosé María Castroviejo,Cangas,245000,100,3.0,2.0,Desconocido,En buen estado,0,0,0,1,No especifica,1,1,0
+Piso en venta en Calle de Madrid,Sanxenxo,360000,107,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,0
+Piso en venta en Calle de Castelao,Sanxenxo,167000,40,1.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Castrelos-Balaídos-Miñoca,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),165000,78,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,0,0,0
+Piso en venta en Tui,Tui,180000,110,3.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Electrica,1,1,0
+Piso en venta en Teis,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),110000,88,3.0,1.0,Bajo,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Calle del Consistorio,Sanxenxo,210000,85,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Cangas,Cangas,165000,65,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Calle de Rodríguez Seoane,A Seca-Os Salgueriños (Pontevedra Capital),189000,93,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Colectiva,1,0,0
+Piso en venta en Teis,Teis (Vigo),149000,80,3.0,1.0,Primeros_pisos,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Vía Norte,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),280000,128,4.0,2.0,Muchos_pisos,En buen estado,160,1,0,1,No especifica,0,0,0
+Piso en venta en Calle Centro,Devesa (Santa Maria de Salceda). Municipio de Salceda de Caselas,98000,86,2.0,2.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,1,1,1
+"Piso en venta en Avenida de Conde de Bugallal, cerca de Calle del Pintor Laxeiro",A Seca-Os Salgueriños (Pontevedra Capital),290000,132,4.0,2.0,Primeros_pisos,En buen estado,70,1,0,1,Gas,1,0,0
+Piso en venta en A Seca-Os Salgueriños,A Seca-Os Salgueriños (Pontevedra Capital),179000,103,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,0,1,1
+Piso en venta en Centro,Zona Praza de Barcelos (Pontevedra Capital),285000,175,4.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,0,0,0
+"Piso en venta en Calle Aragón, cerca de Travesía Rosais",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),195000,96,2.0,2.0,Muchos_pisos,En buen estado,56,1,0,0,Gas,1,0,0
+Piso en venta en Sanxenxo,Sanxenxo,360000,110,3.0,2.0,Desconocido,En buen estado,100,1,0,0,No especifica,1,1,1
+Piso en venta en Centro Urbano,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),139000,80,2.0,1.0,Primeros_pisos,En buen estado,70,0,0,1,No especifica,0,1,1
+Piso en venta en Traviesas-Plaza Independencia,Praza da Independencia (Distrito Casco Urbano. Vigo),170000,95,4.0,2.0,Desconocido,A reformar,50,0,1,1,No especifica,0,0,1
+Piso en venta en Calle del Gavilán,Ponteareas,97000,74,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,0,Electrica,1,1,0
+Apartamento en venta en Poio,Poio (San Juan-Albar),158000,65,2.0,2.0,Primeros_pisos,En buen estado,47,1,0,1,Gas,1,0,0
+Piso en venta en Beluso (Santa María),Beluso (Santa María). Municipio de Bueu,116000,95,3.0,2.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,0,0
+Piso en venta en Calle de Ricardo Santos,Sanxenxo,250000,76,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+"Piso en venta en Calle de Benito Corbal, 24",Zona Praza de Barcelos (Pontevedra Capital),290000,120,4.0,2.0,Desconocido,En buen estado,70,0,0,1,Colectiva,1,1,0
+Piso en venta en Rúa Fontoura,Salvaterra de Miño,98000,86,2.0,2.0,Primeros_pisos,A estrenar,0,1,0,1,Colectiva,1,0,0
+Piso en venta en Praza España-Zona Corte Inglés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),255000,94,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Calle de Oliveira,Poio (San Salvador),125000,75,2.0,1.0,Primeros_pisos,En buen estado,50,1,0,0,No especifica,1,0,0
+Piso en venta en Centro-Areal,Centro-Areal (Distrito Casco Urbano. Vigo),295000,100,3.0,2.0,Muchos_pisos,En buen estado,100,1,1,1,Colectiva,1,0,0
+Piso en venta en Teis,Teis (Vigo),195000,90,3.0,2.0,Primeros_pisos,A reformar,0,0,0,1,No especifica,1,0,0
+Piso en venta en Castrelos-Balaídos-Miñoca,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),179000,81,2.0,2.0,Muchos_pisos,En buen estado,60,1,0,1,Gas,0,0,0
+Piso en venta en Avenida de Vigo,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),180000,110,4.0,2.0,Primeros_pisos,Reformado,50,0,1,1,No especifica,0,0,1
+Piso en venta en Mos,Mos (Santa Eulalia),119900,88,3.0,1.0,Primeros_pisos,En buen estado,40,1,1,0,Gas,0,0,1
+Piso en venta en Camino de la Coteiros,Marín,38900,92,3.0,1.0,Desconocido,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de Iglesias Vilarelle,Campo da Torre-Mollabao (Pontevedra Capital),205000,120,4.0,2.0,Primeros_pisos,En buen estado,70,1,1,1,Gas,0,0,1
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,130000,132,4.0,2.0,Primeros_pisos,En buen estado,15,0,1,0,Gas,1,0,0
+Piso en venta en Calle Camelias - Plaza 8 de Marzo,Camelias-Pi y Margall (Distrito Casco Urbano. Vigo),150000,51,2.0,1.0,Desconocido,A reformar,0,1,0,0,Electrica,0,0,0
+Apartamento en venta en O Burgo,O Burgo-Campus Universitario (Pontevedra Capital),126000,60,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+Piso en venta en Calle de Rosalía de Castro,Salvaterra de Miño,115000,70,2.0,2.0,Bajo,En buen estado,30,1,0,1,Electrica,1,1,0
+Piso en venta en Aldan (San Cibrán),Aldan (San Cibrán). Municipio de Cangas,150000,65,2.0,1.0,Primeros_pisos,A estrenar,70,1,1,1,Gas,1,0,1
+"Piso en venta en Avenida de Balaidos, cerca de Camino de Espedrigada",A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),165000,120,3.0,2.0,Muchos_pisos,En buen estado,50,0,0,1,Electrica,1,0,0
+Piso en venta en Sanxenxo,Sanxenxo,148000,90,3.0,2.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,1,0
+Piso en venta en Calle Manuel Suárez Marquier,O Rosal (Calvario),97000,60,2.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,1,0
+Piso en venta en Calle Puente,Lalín,124000,95,3.0,2.0,Primeros_pisos,A estrenar,0,1,1,1,Gas,1,1,0
+"Apartamento en venta en Calle de San Roque, cerca de Calle del Talude",Casablanca-Calvario (Distrito Casco Urbano. Vigo),88000,45,1.0,1.0,Muchos_pisos,En buen estado,30,1,0,0,Electrica,0,1,0
+"Piso en venta en Calle A Xunca Branca, 31A, Esc",Sanxenxo,85000,46,1.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+"Piso en venta en Calle de Barcelona, cerca de Calle de Zamora",A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),182000,90,3.0,1.0,Primeros_pisos,A estrenar,70,1,0,1,No especifica,1,0,0
+Piso en venta en Rúa do Magnolio,Ponteareas,105000,75,2.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Porriño (O),O Porriño,100000,68,3.0,1.0,Primeros_pisos,En buen estado,50,1,1,1,No especifica,1,1,0
+Piso en venta en Calle de Cobián Roffignac,Zona Praza de Barcelos (Pontevedra Capital),350000,220,5.0,3.0,Primeros_pisos,A reformar,0,1,0,1,Gas,0,0,0
+Piso en venta en Raxó,Poio (San Juan-Albar),200000,105,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Electrica,0,0,1
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,95000,135,4.0,2.0,Primeros_pisos,En buen estado,50,1,0,0,Gas,0,0,1
+Piso en venta en Alameda,Centro-Echegaray (Pontevedra Capital),490000,145,4.0,3.0,Muchos_pisos,En buen estado,220,1,0,1,Colectiva,1,0,1
+Piso en venta en Calle Vía Norte,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),154000,65,2.0,1.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,0,0,0
+Piso en venta en O Porriño,O Porriño,145000,92,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+Piso en venta en Centro,Cangas,150000,77,2.0,2.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,1,0,0
+Piso en venta en Zona Praza de Barcelos,Zona Praza de Barcelos (Pontevedra Capital),205000,135,4.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,Gas,1,0,0
+Piso en venta en A Cañiza,A Cañiza,90000,97,3.0,1.0,Bajo,En buen estado,0,0,0,0,No especifica,1,0,0
+"Apartamento en venta en Rúa Simón Bolívar, 1",Campo da Torre-Mollabao (Pontevedra Capital),125000,84,2.0,1.0,Primeros_pisos,En buen estado,0,0,0,0,Electrica,0,0,0
+Piso en venta en Avenida de Eduardo Pondal,Zona Praza de Barcelos (Pontevedra Capital),325000,180,4.0,3.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Calle Leandro DIZ,O Porriño,130000,80,2.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Gas,1,0,0
+"Piso en venta en Calle Lugar Areas, nº 3 A",Sanxenxo,305000,85,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,1,1,0
+Piso en venta en Avenida de Buenos Aires,O Porriño,85000,90,4.0,1.0,Muchos_pisos,En buen estado,0,1,1,0,Gas,0,0,0
+"Piso en venta en Calle de la Palma, 1",Cuntis,149000,159,4.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,No especifica,0,0,1
+Piso en venta en Calle Avenida Xosé María Castroviejo,Cangas,215000,93,2.0,2.0,Desconocido,A estrenar,0,0,0,1,No especifica,1,1,0
+Piso en venta en Plaza Elíptica-O Castro,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),460000,176,4.0,3.0,Muchos_pisos,En buen estado,0,1,1,0,Colectiva,1,0,0
+Piso en venta en Castrelos,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),160000,60,2.0,2.0,Bajo,En buen estado,0,1,1,0,No especifica,0,1,1
+Piso en venta en Travesía de Vigo,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),140000,100,3.0,2.0,Muchos_pisos,En buen estado,70,0,1,1,No especifica,0,0,0
+Piso en venta en Traviesas-Plaza Independencia,O Castro (Distrito Casco Urbano. Vigo),176000,78,2.0,1.0,Primeros_pisos,En buen estado,0,0,0,1,No especifica,0,0,0
+Apartamento en venta en Fátima,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),160000,55,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,0,0,0
+Piso en venta en Calle Vía Norte,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),154000,65,2.0,1.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,0,0,0
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,130000,130,4.0,2.0,Primeros_pisos,En buen estado,59,0,1,1,Gas,0,0,0
+Piso en venta en Calle Arra,Sanxenxo,115000,40,1.0,1.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,0
+Piso en venta en Salceda de Caselas,Salceda de Caselas,134000,94,3.0,2.0,Primeros_pisos,En buen estado,45,1,0,0,Gas,1,0,0
+Piso en venta en Poio (San Juan-Albar),Poio (San Juan-Albar),185000,115,3.0,2.0,Desconocido,En buen estado,0,1,0,0,No especifica,0,1,0
+Piso en venta en Herrería,Centro-Echegaray (Pontevedra Capital),250000,132,4.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,Colectiva,1,1,0
+"Apartamento en venta en Avenida de la Florida, cerca de Calle de Ponte da Veiga",A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),80000,35,1.0,1.0,Bajo,En buen estado,15,1,0,0,No especifica,0,0,0
+Piso en venta en Fernández Ladreda-Ciudad de Piedra,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),240000,90,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Marín (Escuela Naval Militar),Marín (Escuela Naval Militar),102000,98,3.0,2.0,Muchos_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Apartamento en venta en Moaña,Moaña (Casco Urbano),150000,70,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,0,0,0
+Piso en venta en Calle Sagasta,Zona Praza de Barcelos (Pontevedra Capital),450000,148,3.0,2.0,Desconocido,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Calle Lugar Lanzada,Noalla (Santo Estevo). Municipio de Sanxenxo,150000,75,2.0,1.0,Primeros_pisos,En buen estado,30,1,0,0,Electrica,1,1,0
+Piso en venta en Tui,Tui,163000,82,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+"Piso en venta en Avenida de Lugo, cerca de Calle de Faustino Santalices",Zona Praza de Barcelos (Pontevedra Capital),180000,90,2.0,2.0,Primeros_pisos,A estrenar,0,1,1,1,Gas,1,0,0
+Piso en venta en Avenida de Montecelo,A Seca-Os Salgueriños (Pontevedra Capital),151000,293,3.0,2.0,Bajo,A reformar,0,0,0,0,No especifica,1,1,0
+Piso en venta en Rúa Ramon Cabanillas,Meis (San Martín),150000,68,2.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,0,1
+Piso en venta en Sanxenxo,Sanxenxo,500000,133,3.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Eduardo Pondal,Fernández Ladreda-Ciudad de Piedra (Pontevedra Capital),295000,118,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,0,1,0
+Piso en venta en Calle Arquiteto de La Sota,Centro-Echegaray (Pontevedra Capital),325000,150,4.0,3.0,Primeros_pisos,En buen estado,0,1,0,0,Gas,1,0,0
+"Piso en venta en Calle de Tomás Paredes, 116, cerca de Avenida de Castelao",Coia (Distrito Casco Urbano. Vigo),99900,104,3.0,2.0,Muchos_pisos,A reformar,0,1,0,0,No especifica,0,1,1
+Piso en venta en Calle Aragón,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),87000,51,2.0,1.0,Primeros_pisos,En buen estado,30,0,0,0,No especifica,0,0,0
+Piso en venta en Calle de la Cruz Gallastegui,Zona Praza de Barcelos (Pontevedra Capital),275000,130,4.0,2.0,Desconocido,En buen estado,90,1,0,1,No especifica,1,0,1
+Piso en venta en Avenida de Castelao,Ponteareas,145000,100,3.0,2.0,Muchos_pisos,A estrenar,50,1,0,1,Gas,1,1,0
+Piso en venta en Castrelos-Balaídos-Miñoca,As Travesas-Balaídos (Distrito Casco Urbano. Vigo),170000,61,2.0,1.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,1,0,0
+"Piso en venta en Calle de Urzáiz, 109, cerca de Calle de Pizarro",Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),95000,80,3.0,1.0,Muchos_pisos,A reformar,0,0,1,0,No especifica,0,1,0
+Apartamento en venta en Calle Rosalía de Castro,Poio (San Salvador),148000,77,2.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Calle de los Maestros,Ponteareas,110000,110,3.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Apartamento en venta en Calle de Gerona,Praza da Independencia (Distrito Casco Urbano. Vigo),180000,100,2.0,1.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,1,1,0
+Piso en venta en Rúa Fontoura,Salvaterra de Miño,127000,110,3.0,2.0,Primeros_pisos,A estrenar,0,1,0,1,Colectiva,1,0,0
+Piso en venta en Fátima-Travesía de Vigo-San Xoán,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),280000,126,4.0,2.0,Muchos_pisos,En buen estado,0,1,1,1,No especifica,0,0,0
+"Piso en venta en Calle de San Roque, 5, cerca de Baixada de San Roque",A Salgueira-O Castaño (Distrito Casco Urbano. Vigo),242000,97,2.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Renovable,0,1,0
+Piso en venta en Rúa Nova,Cambados,140000,111,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,No especifica,0,0,0
+Piso en venta en Calle de la Estrada,Marín,100000,90,4.0,2.0,Primeros_pisos,En buen estado,0,0,0,1,Gas,0,0,1
+Piso en venta en Adina (Santa María),Adina (Santa María). Municipio de Sanxenxo,200000,140,4.0,2.0,Desconocido,En buen estado,0,1,0,1,No especifica,0,1,0
+"Piso en venta en Calle Manuel Suárez Marquier, 1",Calvario (O Rosal),96000,85,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Colectiva,1,0,0
+Piso en venta en Calle de Paraguay,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),142500,73,2.0,2.0,Muchos_pisos,En buen estado,70,1,0,0,No especifica,0,0,0
+Piso en venta en Carretera de la Circunvalación,A Guarda,89000,98,3.0,2.0,Primeros_pisos,En buen estado,50,0,0,0,Gas,0,0,1
+Piso en venta en Arenal-Centro,Centro-Areal (Distrito Casco Urbano. Vigo),395000,100,3.0,2.0,Muchos_pisos,A estrenar,0,1,0,1,Renovable,1,0,0
+Piso en venta en Calle del Xogo de la Ola,O Porriño,159000,110,3.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Gas,1,0,0
+Piso en venta en Casablanca-Corte Inglés,Praza España-Zona Corte Inglés (Distrito Casco Urbano. Vigo),290000,87,2.0,2.0,Primeros_pisos,En buen estado,0,1,1,1,Renovable,0,1,1
+Piso en venta en Calle de Rosalía de Castro,Salvaterra de Miño,117000,78,2.0,2.0,Primeros_pisos,A estrenar,0,0,0,0,No especifica,1,0,1
+Piso en venta en A Guarda,A Guarda,210000,157,3.0,2.0,Primeros_pisos,En buen estado,100,1,1,1,Colectiva,1,0,0
+Piso en venta en Calle de Julio Sesto,Calvario (O Rosal),106000,91,3.0,2.0,Desconocido,En buen estado,50,1,1,1,No especifica,0,0,1
+Piso en venta en Calle de Jesús Fernández,Casablanca-Calvario (Distrito Casco Urbano. Vigo),135000,87,2.0,1.0,Muchos_pisos,En buen estado,0,0,0,1,No especifica,0,0,1
+Piso en venta en Vilagarcía de Arousa,Vilagarcía de Arousa,145000,133,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,1,0
+"Piso en venta en Calle de Zaragoza, 44",O Castro (Distrito Casco Urbano. Vigo),245000,95,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Gas,1,0,0
+Piso en venta en Ribadumia,Ribadumia,87000,83,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,No especifica,0,1,1
+Piso en venta en Calle Isidoro Enes,Mondariz-Balneario,88000,95,3.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,0,0
+"Piso en venta en Calle de Tomás Paredes, cerca de Calle de la Pardaíña",Bouzas (Distrito Casco Urbano. Vigo),99900,89,3.0,2.0,Muchos_pisos,A reformar,0,1,1,0,No especifica,0,1,0
+"Piso en venta en Avenida Doctor Otero Ulloa, nº 145",Aguete (Marín),128200,157,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,1,Electrica,1,1,1
+"Piso en venta en Avenida del Outeiro, 26",Raxo (San Gregorio). Municipio de Poio,90750,50,1.0,1.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,1,1,0
+Piso en venta en Rúa de Lugo,Salceda de Caselas,106320,97,2.0,2.0,Primeros_pisos,En buen estado,0,1,0,0,No especifica,1,0,0
+Piso en venta en Travesia de Vigo,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),163000,115,4.0,2.0,Bajo,En buen estado,0,1,0,1,No especifica,0,1,1
+Piso en venta en Lavadores,Lavadores (Vigo),230000,158,3.0,2.0,Primeros_pisos,En buen estado,70,1,1,1,No especifica,1,1,0
+Piso en venta en El Real,Moaña (Casco Urbano),140000,110,4.0,2.0,Muchos_pisos,En buen estado,0,1,0,1,No especifica,0,0,0
+Apartamento en venta en Circunvalación de Pontevedra,Campo da Torre-Mollabao (Pontevedra Capital),160000,89,2.0,2.0,Primeros_pisos,En buen estado,0,0,0,0,No especifica,0,0,0
+Piso en venta en Aragón-Travesía,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),225000,104,3.0,2.0,Muchos_pisos,En buen estado,0,0,0,0,No especifica,1,0,1
+Piso en venta en Travesia de Vigo,Fátima-Travesía de Vigo-San Xoán (Distrito Casco Urbano. Vigo),165000,116,3.0,1.0,Bajo,En buen estado,15,0,1,1,No especifica,0,0,0
+Piso en venta en Calle Ramos Peinador,Mondariz-Balneario,89000,88,2.0,4.0,Primeros_pisos,En buen estado,50,1,0,1,Gas,1,0,0
