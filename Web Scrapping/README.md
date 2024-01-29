@@ -4,11 +4,11 @@ Este repositorio contiene archivos dedicados al web scraping de datos en la plat
 
 ## Archivos del Proyecto
 
-1. **`fichero_1.py`**: Este archivo se encarga de realizar el web scraping de datos para un solo piso. Extrae información detallada de un anuncio de venta específico en pisos.com.
+1. **`scrap-info-un-piso.py`**: Este archivo se encarga de realizar el web scraping de datos para un solo piso. Extrae información detallada de un anuncio de venta específico en pisos.com.
 
-2. **`fichero_2.py`**: En este archivo, se realiza el scraping de todas las IDs de los pisos en Pontevedra. Estas IDs luego se utilizan para construir las URL de los anuncios individuales y obtener más información sobre cada piso.
+2. **`scrap-IDs-pontevedra.py`**: En este archivo, se realiza el scraping de todas las IDs de los pisos en Pontevedra. Estas IDs luego se utilizan para construir las URL de los anuncios individuales y obtener más información sobre cada piso.
 
-3. **`fichero_3.py`**: En este archivo se lleva a cabo el scraping total de los pisos en la provincia de Pontevedra. Utiliza las IDs obtenidas en el segundo archivo para recopilar información sobre múltiples anuncios de venta de pisos.
+3. **`scrap-caract-pisos-pontevedra.py`**: En este archivo se lleva a cabo el scraping total de los pisos en la provincia de Pontevedra. Utiliza las IDs obtenidas en el segundo archivo para recopilar información sobre múltiples anuncios de venta de pisos.
 
 ## Ejecución
 
