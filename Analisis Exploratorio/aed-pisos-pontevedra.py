@@ -337,6 +337,89 @@ sns.catplot(x = df_pisos.Trastero, y = df_pisos.precio)
 plt.show()
 
 
+"""
+VARIABLE "UBICACION"
+"""
+
+# Reseteamos los indices
+df_pisos.reset_index(inplace = True)
+df_pisos = df_pisos.drop("index", axis = 1)
+
+    # Variable "Ubicacion"
+df_pisos.ubicacion.value_counts() # 95 ubicaciones
+df_pisos.ubicacion.unique()
+
+"""
+Explicación: Se puede observar que existen numerosas ubicaciones para os pisos.
+Considero que son demasiadas e incluso la información puede verse afectada cuando
+existen ciertas ubicaciones que pertenecen al mismo municipio. 
+
+Para concentrar más la información de esta variable, lo que haré será clasificar cada una de las ubicaciones
+en bruto, dentro de uno de los 61 municipios que tiene la provincia de Pontevedra. Y eso es lo que hago a continuación.
+
+Destacar que he resumido cada uno de los 61 municipios con una palabra clave, mas que nada
+para facilitar el desarrollo del codigo y llegar a un buen resultado. Por ejemplo, el municipio
+de "A Illa de Arousa" lo he clasificado como "Arousa". "Vilagarcía de Arousa" como "Vilagarcía",
+y así con las que me hizo falta abreviar.
+
+Esto mas que nada es por la logica que he seguido al crear la función a que aparece después. Si por ejemplo
+no sintetizo "Pazos de Borbén" en una unica clave como es "Pazos", si la ubicación real presentase
+el string "de" pero perteneciese por ejemplo a "Municipio de Cangas", la función me clasificaría
+el municipio como "Pazos", siendo este "Cangas".
+
+"""
+
+# Todas las ubicaciones de los pisos (monarcas y municipios)
+municipios_pontevedra = [
+    "Cañiza", "Estrada", "Guarda", "Arousa", "Lama", "Agolada", "Arbo", "Neves", 
+    "Baiona", "Barro", "Bueu", "Caldas", "Cambados", "Lameiro", "Cangas", "Catoira", 
+    "Cerdedo", "Cerdedo", "Cotobade", "Covelo", "Crecente", "Cuntis", "Dozón", "Forcarei", 
+    "Fornelos", "Gondomar", "Lalín", "Marín", "Meaño", "Meis", "Moaña", "Mondariz", 
+    "MondarizBalneario", "Moraña", "Mos", "Nigrán", "Grove", "Porriño", "Rosal", "Oia", 
+    "Pazos", "Poio", "Caldelas", "Ponteareas", "Pontecesures", "Pontevedra", "Portas", 
+    "Redondela", "Ribadumia", "Rodeiro", "Salceda", "Salvaterra", "Sanxenxo", 
+    "Silleda", "Soutomaior", "Tomiño", "Tui", "Valga", "Vigo", "Cruces", "Vilaboa", 
+    "Vilagarcía", "Vilanova"
+]
+
+# Funcion para clasificar las ubicaciones en cada uno de estos nombres
+def process_ubicacion(serie):
+    lista = serie.strip().replace("(", "").replace(")", "").split()
+    for elemento in lista:
+        for municipio in municipios_pontevedra:
+            if elemento == municipio:
+                return(elemento)
+    return("".join(lista))
+
+x = df_pisos.ubicacion.apply(process_ubicacion)
+
+# Con el siguiente codigo vamos a comprobar cuantas de las ubicaciones
+# se han conseguido clasificar correctamente. Para ello, usaremos la funcion
+# creada match_property() que devuelve un True si el elemento que deseamos buscar
+# aparece en el string buscado.
+aciertos = 0
+errores = 0
+for i in range(0,len(x)):
+    if match_property(df_pisos.ubicacion[i], x[i]):
+        aciertos +=1
+    else:
+        errores +=1
+print(f"El numero de elementos que se han clasificado correctamente es de: {aciertos}. \nEl numero de errores ha sido de {errores}")    
+
+# Introducimos los nuevos datos en la variable "ubicacion", sustituyendo a los antiguos valores
+df_pisos.ubicacion = x
+
+# Exploramos la nueva variable de "ubicacion"
+df_pisos.ubicacion.value_counts()
+
+# Representacion de la Ubicacion junto al precio
+sns.catplot(y = df_pisos.ubicacion, x = df_pisos.precio)
+plt.show()
+# COMENTARIO: Parece que la variable ubicacion si presenta bastante informacion
+
+
+
+
 
 
 ## GUARDAMOS LOS DATOS RESULTANTES DEL ANALISIS EXPLORATORIO DE DATOS EN UN CSV
