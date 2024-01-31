@@ -5,6 +5,7 @@ Este repositorio contiene un script de Python que realiza un análisis explorato
 ## Contenido del Repositorio:
 
 - **aed-pisos-pontevedra.py:** Este es el script principal que realiza el análisis exploratorio de datos utilizando la biblioteca pandas, seaborn y matplotlib.
+- **dashboard-pontevedra.py:** Este script crea un dashboard interactivo en un entorno local en el que se pueden visualizar gran parte de los gráficos creados en el análisis exploratorio. Los datos empleados para crear este dashboard son los obtenidos a raíz del análisis exploratorio, que se pueden obtener en el archivo CSV **pisos-pontevedra-machine-learning.csv**.
 
 ## Resumen del Proceso:
 
