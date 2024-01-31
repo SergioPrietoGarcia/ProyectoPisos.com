@@ -1,8 +1,8 @@
 # Análisis Exploratorio de Datos
 
-Este repositorio contiene un script de Python que realiza un análisis exploratorio de datos sobre un conjunto de datos de pisos en la provincia de Pontevedra. El análisis se centra en la exploración de variables clave y la visualización de patrones y distribuciones. A continuación, se proporciona un resumen del proceso realizado:
+Esta carpeta contiene un script de Python que realiza un análisis exploratorio de datos sobre un conjunto de datos de pisos en la provincia de Pontevedra. El análisis se centra en la exploración de variables clave y la visualización de patrones y distribuciones. A continuación, se proporciona un resumen del proceso realizado:
 
-## Contenido del Repositorio:
+## Contenido del la carpeta:
 
 - **aed-pisos-pontevedra.py:** Este es el script principal que realiza el análisis exploratorio de datos utilizando la biblioteca pandas, seaborn y matplotlib.
 - **dashboard-pontevedra.py:** Este script crea un dashboard interactivo en un entorno local en el que se pueden visualizar gran parte de los gráficos creados en el análisis exploratorio. Los datos empleados para crear este dashboard son los obtenidos a raíz del análisis exploratorio, que se pueden localizar en el archivo CSV **pisos-pontevedra-machine-learning.csv**.
