@@ -14,9 +14,8 @@ Esta carpeta contiene archivos dedicados al web scraping de datos en la platafor
 
 1. **`ids_pisos.csv`**: Contiene las IDs de los pisos recopiladas durante el proceso de web scraping.
 
-2. **`pisos.com_pontevedra.csv`**: Almacena las características en bruto y sin procesar de todos los pisos en la provincia de Pontevedra.
-  
-3. **`scrap_info_un-piso.csv`**
+2. **`pisos.com-pontevedra.csv`**: Almacena las características en bruto y sin procesar de todos los pisos en la provincia de Pontevedra.
+
 
 ## Ejecución
 
