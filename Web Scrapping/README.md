@@ -1,6 +1,6 @@
 # Web Scraping de Pisos en Pontevedra
 
-Este repositorio contiene archivos dedicados al web scraping de datos en la plataforma pisos.com. El objetivo es recopilar información sobre anuncios de ventas de pisos en la provincia de Pontevedra, España.
+Esta carpeta contiene archivos dedicados al web scraping de datos en la plataforma pisos.com. El objetivo es recopilar información sobre anuncios de ventas de pisos en la provincia de Pontevedra, España.
 
 ## Archivos del Proyecto
 
