@@ -119,10 +119,13 @@ VARIABLE "HABITACIONES"
 
     ### Variable "Habitaciones"
 df_pisos.Habitaciones.value_counts()
-sns.histplot(data = df_pisos.Habitaciones)
+# COMENTARIO: Predominan los pisos con 3, 2 y 4 habitaciones, en ese orden
+sns.catplot(x = df_pisos.Habitaciones, y = df_pisos.precio)
 plt.show()
 
-# COMENTARIO: Predominan los pisos con 3, 2 y 4 habitaciones, en ese orden
+
+sns.barplot(x = df_pisos.Habitaciones.value_counts().index, y = df_pisos.Habitaciones.value_counts().values)
+plt.show()
 
 """
 VARIABLE "BAÑOS"
@@ -138,6 +141,9 @@ df_pisos = df_pisos.drop(3) # Se elimino el anuncio
 df_pisos.loc[643, "Baños"] = 2.0
 df_pisos.loc[308, "Baños"] = 1.0
 df_pisos.loc[111, "Baños"] = 1.0
+
+sns.catplot(x = df_pisos["Baños"], y = df_pisos.precio)
+plt.show()
 
 
 """
@@ -161,6 +167,9 @@ VARIABLE "SUPERFICIE"
 
     ### Variable "Superficie"
 sns.histplot(data = df_pisos["Superficie"])
+plt.show()
+
+sns.scatterplot(x = df_pisos.Superficie, y = df_pisos.precio)
 plt.show()
 
 
@@ -204,6 +213,7 @@ df_pisos.Planta = df_pisos.Planta.apply(process_piso)
 # Representacion con la variable Precio
 sns.catplot(x = df_pisos.Planta, y = df_pisos.precio)
 plt.show()
+
 
 # COMENTARIO: La gran diferencia entre las categorias radica en "Bajo". Como era de esperar
 # los bajos son mas baratos que los pisos mas elevados.
