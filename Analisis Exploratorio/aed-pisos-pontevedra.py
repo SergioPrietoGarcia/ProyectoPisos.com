@@ -1,10 +1,14 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+import numpy as np
 import re
+
+pd.set_option('display.max_rows', None) # Ver los dataframes completos
 
 df_pisos = pd.read_csv('C:\\Users\\Lenovo\\Desktop\\Universidad\\Python\\Proyecto Inmobiliaria\\Proyecto Pisos.com\\Pre-Procesado\\df_pisos_pontevedra.csv')
 df_pisos = df_pisos.drop('Unnamed: 0', axis = 1)
+df_pisos.shape
 df_pisos.head()
 df_pisos.describe()
 df_pisos.columns
@@ -83,6 +87,7 @@ vars2 = ["Amueblado", "Balcon", "Ascensor", "Garaje", "Terraza", "Trastero"] + [
 pair_plot = sns.pairplot(df_pisos[vars1])
 plt.show()
 
+
 # COMENTARIO: Existe una aparente relación lineal entre el precio de la vivienda y
 # la superficie, el numero de baños y los gastos de la comunidad. En cuanto al numero
 # de habitaciones parece que cuando se incrementa a 5 el numero de habitaciones el precio
@@ -107,7 +112,7 @@ plt.show()
 
 df_pisos.loc[df_pisos.precio > 1000000][["precio", "Superficie"]]
 
-# COMENTARIO: ¿Que hacemos con esas casas? Son unicamente 2 pisos de 764
+# COMENTARIO: ¿Que hacemos con esas casas? Son unicamente 3 pisos de aproximadamente 1500
 # que superan el millón de euros. Tal vez la mejor idea es tratarlos como outliers
 # y eliminarlas.
 df_pisos = df_pisos[df_pisos.precio < 1000000]
@@ -127,23 +132,54 @@ plt.show()
 sns.barplot(x = df_pisos.Habitaciones.value_counts().index, y = df_pisos.Habitaciones.value_counts().values)
 plt.show()
 
+# COMENTARIO: Hay que tener cuidado con los pisos que superan las 7 habitaciones. Vamos a observar de que se trata:
+df_pisos[df_pisos.Habitaciones > 7]
+df_pisos.loc[1014] # No lo considero como outlier
+df_pisos.loc[1079] # El piso esta sin reformar, le faltan muchas caracteristicas, es demasiado barato y tiene demasiadas habitaciones y pisos. Outlier
+df_pisos.loc[1129] # Piso sin reformar. En Vigo, cuesta 500k y si tiene 10 habitaciones y 10 baños. No lo considero Outlier
+df_pisos.loc[1460] # No es Outlier
+
+df_pisos = df_pisos.drop(1079)
+df_pisos.reset_index(inplace=True)
+df_pisos = df_pisos.drop("index", axis = 1)
+
+
 """
 VARIABLE "BAÑOS"
 """
 
     ### Variable "BAÑOS"
+df_pisos["Baños"].value_counts()
 df_pisos["Baños"].value_counts().sum()
 df_pisos.loc[df_pisos["Baños"].isna()][["titulo","Baños", "precio", "ubicacion", "Planta"]]
 
 # COMENTARIO: Hay 4 pisos que reflejan un NaN en su valor de baños. Comprobando individualmente
 # en la web se puede ver que algo debio pasar en el scraping por lo que los relleno manualmente
 df_pisos = df_pisos.drop(3) # Se elimino el anuncio
-df_pisos.loc[643, "Baños"] = 2.0
-df_pisos.loc[308, "Baños"] = 1.0
+df_pisos.loc[641, "Baños"] = 2.0
+df_pisos.loc[307, "Baños"] = 1.0
 df_pisos.loc[111, "Baños"] = 1.0
+df_pisos.loc[840, "Baños"] = 0
+df_pisos.loc[937, "Baños"] = 1.0
+df_pisos.loc[1186, "Baños"] = 0
+df_pisos.loc[1216, "Baños"] = 1.0
+df_pisos.loc[1228, "Baños"] = 3.0
+df_pisos = df_pisos.drop(1323) # Outlier
+df_pisos.loc[1352, "Baños"] = 0
+df_pisos = df_pisos.drop(1434) # Outlier
+df_pisos.loc[1443, "Baños"] = 1.0
+df_pisos.loc[1472, "Baños"] = 2.0
 
+df_pisos.reset_index(inplace=True)
+df_pisos = df_pisos.drop("index", axis = 1)
+
+# Representacion
 sns.catplot(x = df_pisos["Baños"], y = df_pisos.precio)
 plt.show()
+
+df_pisos[df_pisos["Baños"] == 14] # Es un error. En realidad solo tiene un baño
+df_pisos.loc[1212, "Baños"] = 1.0
+
 
 
 """
@@ -197,23 +233,22 @@ def process_piso(serie):
         mapeo = ""
         if len(lista[1]) > 3:
             mapeo = "Bajo"
-        elif int(lista[1].replace("ª", "")) < 3:
+        elif int(lista[1].replace("ª", "")) <= 3:
             mapeo = "Primeros_pisos"
-        elif int(lista[1].replace("ª", "")) < 3 & int(lista[1].replace("ª", "")) > 8:
+        elif int(lista[1].replace("ª", "")) > 3 and int(lista[1].replace("ª", "")) < 8:
             mapeo = "Ultimos_pisos"
-        else:
+        elif int(lista[1].replace("ª", "")) >= 8:
             mapeo = "Muchos_pisos"
         return(mapeo)
     else:
         return("Desconocido")
 
-df_pisos.Planta = df_pisos.Planta.apply(process_piso)
 
+df_pisos.Planta = df_pisos.Planta.apply(process_piso)
 
 # Representacion con la variable Precio
 sns.catplot(x = df_pisos.Planta, y = df_pisos.precio)
 plt.show()
-
 
 # COMENTARIO: La gran diferencia entre las categorias radica en "Bajo". Como era de esperar
 # los bajos son mas baratos que los pisos mas elevados.
@@ -294,9 +329,9 @@ def process_calefaccion(serie):
         mapeo = serie
     if match_property(serie.lower().strip(), ["central"]) or match_property(serie.lower().strip(), ["colect"]):
         mapeo = "Colectiva"
-    if serie == "Individual" or serie == "Si, sin especificar":
+    if serie == "Individual" or serie == "Si, sin especificar" or serie == "Sin especificar" or serie == "Otros" or serie == "Acumuladores" or serie == "Tarifa nocturno":
         mapeo = "No especifica"
-    if serie == "Aerotermia" or serie == "Calor azul" or serie == "Energía renovable" or serie == "Placas solares":
+    if serie == "Aerotermia" or serie == "Calor azul" or serie == "Energía renovable" or serie == "Placas solares" or serie == "Biomasa" or serie == "Bomba de calor":
         mapeo = "Renovable"
     return(mapeo)
 
