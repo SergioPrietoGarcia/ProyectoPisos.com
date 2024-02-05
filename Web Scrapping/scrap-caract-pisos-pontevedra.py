@@ -57,9 +57,10 @@ inicio_tiempo = time.time()
 
 
 ## Scraping de las caracteristicas de todos los pisos a la venta en Pontevedra a partir del archivo "ids_pisos.csv" 
-ids_pisos = pd.read_csv("C:\\Users\\Lenovo\\Desktop\\Universidad\\Python\\Proyecto Inmobiliaria\\Proyecto Pisos.com\\ids_pisos.csv")
+ids_pisos = pd.read_csv("C:\\Users\\Lenovo\\Desktop\\Universidad\\Python\\Proyecto Inmobiliaria\\Proyecto Pisos.com\\Web Scraping\\ids_pisos.csv")
 
-driver = uc.Chrome()
+# driver = uc.Chrome()
+driver = webdriver.Chrome()
 pisos = pd.Series() # Creamos una serie a partir de la cual se creara un dataframe con todos los pisos
 
 def parsear_inmueble(id_inmueble):
@@ -70,6 +71,8 @@ def parsear_inmueble(id_inmueble):
     print('\n Casa numero: ' + id_inmueble)
     url = 'https://www.pisos.com' + id_inmueble
 
+    # Se intenta cargar la web y extraer los datos. Si ocurre un error se imprime
+    # el piso que no se ha podido cargar
     driver.get(url)
     time.sleep(random.randint(1,3)) # bajar el tiempo
 
@@ -129,17 +132,18 @@ def parsear_inmueble(id_inmueble):
 
     return(df_pisos.T)
 
+
 df_pisos = parsear_inmueble(ids_pisos.iloc[0].ID) # Primera fila del dataframe
 
 # Inicializamos un bucle con la funcion parsear_inmueble() para extrer toda
 # la información que deseamos de cada piso almacenado en "ids_pisos.csv"
-for i in range(1, 820): #len(ids_pisos) - 820
+for i in range(1, len(ids_pisos)):
     try:
     # Concatena los inmuebles adicionales a df_pisos
         df_temporal = parsear_inmueble(ids_pisos.iloc[i].ID)
         df_pisos = pd.concat([df_pisos, df_temporal])
         print(i)
-        time.sleep(random.randint(2, 3)) # bajar el tiempo
+        time.sleep(random.randint(1, 2)) # bajar el tiempo
     except:
         pass
 
@@ -153,7 +157,15 @@ print(f"Tiempo total de ejecución: {tiempo_total:.2f} segundos")
 
 df_pisos.reset_index(drop=True, inplace = True)
 df_pisos
+
+# Cargamos el dataframe en un CSV. "pisos.com-pontevedra.csv"
 df_pisos.to_csv("pisos.com-pontevedra.csv", index = False, sep = ";", encoding="utf-16")
+
+
+
+
+# El scrapeo se ha realizado en dos rondas debido al gran numero de pisos.
+# Las estadísticas de los resultados han sido las siguientes
 
 ## PRIMERA RONDA.
 
@@ -161,4 +173,10 @@ df_pisos.to_csv("pisos.com-pontevedra.csv", index = False, sep = ";", encoding="
     # Numero de iteraciones: 820
     # Numero de pisos scrapeados: 772
     # Restantes - iteraciones de 821 a 1639
+
+## SEGUNDA RONDA.
+
+    # TIEMPO DE DURACION 7015.34 - Casi 2 horas (he reducido los tiempos de espera en el script)
+    # Numero de iteraciones: 815
+    # Numero de pisos scrapeados: 760
 
