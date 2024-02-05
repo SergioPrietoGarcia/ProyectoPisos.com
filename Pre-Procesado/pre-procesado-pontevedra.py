@@ -4,7 +4,7 @@ from ast import literal_eval # convertir un string que almacena una lista de un 
 import re
 
 # Cargamos los datos
-archivo = "C:\\Users\\Lenovo\\Desktop\\Universidad\\Python\\Proyecto Inmobiliaria\\Proyecto Pisos.com\\pisos.com-pontevedra.csv"
+archivo = "C:\\Users\\Lenovo\\Desktop\\Universidad\\Python\\Proyecto Inmobiliaria\\Proyecto Pisos.com\\Web Scraping\\pisos.com-pontevedra.csv"
 df_pisos = pd.read_csv(archivo, encoding = "utf-16", sep = ";",  # necesario introducir encoding y el separador
                        converters = {'caracteristicas_basicas':literal_eval,
                                      'caracteristicas_extra':literal_eval}) # Esto es necesario para transformar el string que almacena ambas listas
@@ -18,12 +18,12 @@ df_pisos.head()
 df_pisos.info()
 df_pisos = df_pisos[df_pisos["precio"] != "A consultar"] # Eliminar filas con precio igual a "A consultar"
 df_pisos["precio"] = df_pisos["precio"].astype(int)
-# df_pisos.shape (765, 5)
+df_pisos.shape # (1517, 5)
 
 # Investigamos primera fila
 df_pisos["titulo"][0]; df_pisos["precio"][0]; df_pisos["ubicacion"][0]; df_pisos["caracteristicas_basicas"][0]; df_pisos["caracteristicas_extra"][0]
 
-# Numero total de ubicaciones (95)
+# Numero total de ubicaciones (126)
 df_pisos.ubicacion.unique()
 df_pisos.ubicacion.nunique()
 
@@ -327,3 +327,10 @@ df_pisos.to_csv('df_pisos_pontevedra.csv', header = True)
 
 # df_pisos = pd.read_csv('df_pisos_pontevedra.csv')
 # df_pisos = df_pisos.drop('Unnamed: 0', axis = 1)
+
+
+"""
+Despues de haber realizado un primer pre-procesado, en el análisis exploratorio de datos,
+ademas de realizar la exploración, lo más seguro es que se continuen depurando y 
+perfeccionando los datos.
+"""
