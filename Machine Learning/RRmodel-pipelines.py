@@ -3,18 +3,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from sklearn.linear_model import Ridge
-
-from sklearn.metrics import mean_squared_error, mean_absolute_error
-from sklearn.model_selection import cross_val_score, cross_val_predict, KFold, GridSearchCV
-
-from sklearn.pipeline import Pipeline
-from sklearn.compose import TransformedTargetRegressor
-
+from sklearn.linear_model import Ridge, RidgeCV
+from sklearn.metrics import mean_squared_error, mean_absolute_error, median_absolute_error, r2_score
+from sklearn.model_selection import cross_val_score, cross_val_predict, KFold, GridSearchCV, RepeatedKFold, cross_validate, train_test_split
+from sklearn.pipeline import Pipeline, make_pipeline
+from sklearn.compose import TransformedTargetRegressor, make_column_transformer
 from sklearn import preprocessing
 from sklearn.preprocessing import OneHotEncoder
+import joblib  # Guardar el modelo
+import scipy as sp
 
-import joblib # Guardar el modelo
 
 pd.set_option('display.max_rows', None) # Ver los dataframes completos
 
@@ -68,18 +66,18 @@ plt.show()
 
 
 """
-VARIABLES EXPLICATIVAS X | VARIABLE INDEPENDIENTE Y
+MODELO 1. RIDGE REGRESSION
+          PIPELINES
 """
+
+## SELECCION DE LAS VARIABLES X e Y
 x, y = df_pisos.drop(["precio", "titulo", "ubicacion"], axis = 1), df_pisos["precio"]
 x.info()
 # Muestra de entrenamiento y muestra de test
-from sklearn.model_selection import train_test_split
+
 X_train, X_test, Y_train, Y_test = train_test_split(x, y, random_state=99, test_size=0.2)
 
 # Convertir variables categoricas en nuevas variables con 1 y 0
-from sklearn.compose import make_column_transformer
-from sklearn.preprocessing import OneHotEncoder
-
 variables_categoricas = ["ubicacion_nueva", "Planta", "Conservacion", "Calefaccion"]
 variables_numericas = ["Superficie", "Habitaciones", "Baños", "Gastos de Comunidad",
                        "Amueblado", "Balcon", 'Ascensor', 'Calefaccion', 'Garaje', 
@@ -91,18 +89,12 @@ preprocesador = make_column_transformer(
     verbose_feature_names_out=False # Evita que se generen nombres de caracteristicas adicionales
 )
 
-"""
-PIPELINES
 
-un pipeline es una secuencia de procesos de datos encadenados, donde cada paso se realiza de manera ordenada. 
-Los pipelines son especialmente útiles para organizar y estructurar el flujo de trabajo de preprocesamiento y
-modelado, facilitando la reproducción y la gestión del código.
-"""
+## PIPELINES
 
-from sklearn.pipeline import make_pipeline
-from sklearn.linear_model import Ridge
-from sklearn.compose import TransformedTargetRegressor
-import scipy as sp
+# Un pipeline es una secuencia de procesos de datos encadenados, donde cada paso se realiza de manera ordenada. 
+# Los pipelines son especialmente útiles para organizar y estructurar el flujo de trabajo de preprocesamiento y
+# modelado, facilitando la reproducción y la gestión del código.
 
 # Creamos el modelo
 model = make_pipeline(
@@ -116,15 +108,19 @@ model = make_pipeline(
 model.fit(X_train, Y_train)
 
 # Predicciones
-from sklearn.metrics import median_absolute_error
-
+    # Predicciones sobre la muestra de entrenamiento
 y_pred = model.predict(X_train)
 mae = median_absolute_error(Y_train, y_pred)
+r2 = r2_score(Y_train, y_pred)
 print(f"MAE on training set: {mae: .2f} euros")
+print(f"R2 on training set: {r2: .2f} ")
 
+    # Predicciones sobre la muestra de test
 y_pred = model.predict(X_test)
 mae = median_absolute_error(Y_test, y_pred)
-print(f"MAE on training set: {mae: .2f} euros")
+r2 = r2_score(Y_test, y_pred)
+print(f"MAE on testing set: {mae: .2f} euros")
+print(f"R2 on testing set: {r2: .2f} ")
 
 # COMENTARIO: Con un alpha con valor 1e-10, realizando una transformación logaritmica sobre la variable
 # precio y empleando los pipelines se ha obtenido:
@@ -132,9 +128,18 @@ print(f"MAE on training set: {mae: .2f} euros")
     # MAE para la muestra de entrenamiento: 28668.19€
     # MAE para la muestra de test: 28305.86€
 
+    # R2 en la muestra de entrenamiento y test: 0.57
+
 # Se ha reducido considerablemente el MAE en aproximadamente unos 20000€. Una reducción impresionante.
+# Por otro lado, se ha alcanzado un valor del R2 en ambos casos de 0.57
 # A continuacion, vamos a ir cambiando el valor del alpha y comprobar si conseguimos reducir algo mas 
 # este error
+
+"""
+MODELO 2. RIDGE REGRESSION
+          PIPELINES
+          FINE TUNNING (BÚSQUEDA DEL MEJOR ALPHA)
+"""
 
 # Reajuste de los modelos en base a un grid de alphas
 l_alpha = [2**k for k in range(-6,10)]
@@ -169,7 +174,7 @@ print(pd.DataFrame(resultados))
 
 
 
-    # Representacion de las predicciones para el modelo con alpha = 0.25
+    # Ajuste del modelo con alpha = 0.25
 # Creamos el modelo
 model = make_pipeline(
     preprocesador,
@@ -182,15 +187,20 @@ model = make_pipeline(
 model.fit(X_train, Y_train)
 
 # Predicciones
-from sklearn.metrics import median_absolute_error
 
+    # Predicciones sobre la muestra de entrenamiento
 y_pred = model.predict(X_train)
 mae = median_absolute_error(Y_train, y_pred)
+r2 = r2_score(Y_train, y_pred)
 print(f"MAE on training set: {mae: .2f} euros")
+print(f"MAE on training set: {r2: .2f}")
 
+    # Predicciones sobre la muestra de test
 y_pred = model.predict(X_test)
 mae = median_absolute_error(Y_test, y_pred)
-print(f"MAE on training set: {mae: .2f} euros")
+r2 = r2_score(Y_test, y_pred)
+print(f"MAE on testing set: {mae: .2f} euros")
+print(f"MAE on testing set: {r2: .2f}")
 
 
 # Representacion de los resultados
@@ -203,17 +213,18 @@ plt.xlabel("Test Data")
 plt.ylabel("Predict Data")
 plt.show()
 
-"""
-PRIMERAS CONCLUSIONES:
 
-El mejor modelo hasta el momento se ha obtenido ajustando la regresion Ridge para
-un valor de alpha de 0.25. Se ha obtenido un MAE para la muestra de test de 28145.77€.
+# PRIMERAS CONCLUSIONES:
 
-De momento, este es nuestro mejor modelo.
+# El mejor modelo hasta el momento se ha obtenido ajustando la regresion Ridge para
+# un valor de alpha de 0.25. Se ha obtenido un MAE para la muestra de test de 28145.77€
+# y un valor del R2 de 0.57
 
-A continuación, vamos a estudiar la aportación de cada variable. Tal vez existan variables 
-correlacionadas que dificulten la comprensión de los datos al modelo de machine learning.
-"""
+# De momento, este es nuestro mejor modelo.
+
+# A continuación, vamos a estudiar la aportación de cada variable. Tal vez existan variables 
+# correlacionadas que dificulten la comprensión de los datos al modelo de machine learning.
+
 
 
 
@@ -274,7 +285,7 @@ plt.show()
 # COMENTARIO: Se puede observar que la varianza de los Gastos de Comunidad y
 # Superficie tienen mucha mas varianza en comparacion con el resto de variables. 
 # Esto supone serias dificultades a la hora de calcular la importancia de las variables
-# Por lo que representaremos los coeficientes calculados antes multiplicados por sus
+# Por lo que representaremos los coeficientes calculados antes, multiplicados por sus
 # varianzas
 
 coefs = pd.DataFrame(
@@ -297,14 +308,10 @@ plt.show()
 
 
 """
-AJUSTE DEL MODELO POR VALIDACIÓN CRUZADA
-
-A continuacion, emplearemos la validacion cruzada para ajustar modelos con diferentes
-datos de entrenamiento y de test
+MODELO 3. RIDGE REGRESSION
+          PIPELINES
+          VALIDACIÓN CRUZADA
 """
-
-from sklearn.model_selection import cross_validate
-from sklearn.model_selection import RepeatedKFold
 
 cv = RepeatedKFold(n_splits = 5, n_repeats=5, random_state = 99)
 cv_model = cross_validate(
@@ -449,19 +456,14 @@ axes[1].set_adjust(left=0.3)
 
 plt.show()
 
-"""
-La variabilidad de la importancia de la variable "Superficie"
-se reduce considerablemente cuando eliminamos las variables 
-"Habitaciones" y "Baños" del modelo. Todo esto teniendo en cuenta
-la transformación logaritmica realizada sobre la variable precio.
-"""
 
-"""
-A continuacion, vamos a reajustar el modelo con RidgeCV, pasandole un grid de alphas,
-y realizando la transformación logaritmica sobre la variable precio
-"""
+# COMENTARIO: La variabilidad de la importancia de la variable "Superficie"
+# se reduce considerablemente cuando eliminamos las variables 
+# "Habitaciones" y "Baños" del modelo. Todo esto teniendo en cuenta
+# la transformación logaritmica realizada sobre la variable precio.
 
-from sklearn.linear_model import RidgeCV
+# A continuacion, vamos a reajustar el modelo con RidgeCV, pasandole un grid de alphas,
+# y realizando la transformación logaritmica sobre la variable precio
 
 alphas = np.logspace(-10,10, 21)
 model = make_pipeline(
@@ -479,11 +481,15 @@ model[-1].regressor_.alpha_ # EL mejor alpha es un 1
 # Predicciones y metricas
 y_pred = model.predict(X_train)
 mae = median_absolute_error(Y_train, y_pred)
+r2 = r2_score(Y_train, y_pred)
 print(f"MAE on training set: {mae: .2f} euros")
+print(f"R2 on training set: {r2: .2f}")
 
 y_pred = model.predict(X_test)
 mae = median_absolute_error(Y_test, y_pred)
-print(f"MAE on training set: {mae: .2f} euros")
+r2 = r2_score(Y_test, y_pred)
+print(f"MAE on testing set: {mae: .2f} euros")
+print(f"R2 on testing set: {r2: .2f}")
 
 
 # Representacion de los resultados
@@ -496,37 +502,13 @@ plt.xlabel("Test Data")
 plt.ylabel("Predict Data")
 plt.show()
 
+# COMENTARIO: El valor del MAE para estos datos y este modelo es de 28705.08
+# y el valor del R2 es de 0.57. 
 
+# COMENTARIO: No se ha conseguido mejorar el modelo que ya teniamos con un MAE de
+# aproximadamente 28100 y un valor de R2 de 0.57.
 
-"""
-PREDICCION FINAL
-
-Trabajamos con el total de los datos
-"""
-from sklearn.metrics import r2_score
-
-# Ajustamos el modelo
-model.fit(x.drop(columns = ["Habitaciones", "Baños"]), y)
-
-# Predicciones y metricas
-y_pred = model.predict(x.drop(columns = ["Habitaciones", "Baños"]))
-mae = median_absolute_error(y, y_pred)
-r2 = r2_score(y, y_pred)
-print(f"MAE: {mae: .2f} euros")
-print(f"R^2: {r2: .2f}")
-
-# Representacion de los resultados
-fig, ax = plt.subplots(figsize = (5,5))
-plt.scatter(y, y_pred)
-ax.plot([0,1], [0,1], transform = ax.transAxes, ls = "--", c = "red")
-plt.text(500000, 200000, f"MAE on training set: {mae: .2f} euros")
-plt.title("Ridge Regression Modelo | Regularization")
-plt.xlabel("Test Data")
-plt.ylabel("Predict Data")
-plt.show()
-
-
-"""
-COMENTARIOS FINALES: El mejor modelo de Ridge Regression logrado ha obtenido
-un valor del MAE de 29621.64 euros y un valor del R^2 de 0.58.
-"""
+# COMENTARIO: Esto es lo maximo que he podido alcanzar mediante la RidgeRegression.
+# En el siguiente script llevare a cabo un ajuste mediante XGBoost con el objetivo
+# de mejorar el resultado final y obtener un mejor modelo. El script recibe el 
+# nombre de 'model-xgboost.py'

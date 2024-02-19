@@ -3,17 +3,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from sklearn.linear_model import Ridge
-
-from sklearn.metrics import mean_squared_error, mean_absolute_error
-from sklearn.model_selection import cross_val_score, cross_val_predict, KFold, GridSearchCV
-
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+from sklearn.model_selection import cross_val_score, cross_val_predict, KFold, GridSearchCV, train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.compose import TransformedTargetRegressor
-
 from sklearn import preprocessing
 from sklearn.preprocessing import OneHotEncoder
-
 import joblib
+from sklearn import model_selection
+
 
 pd.set_option('display.max_rows', None) # Ver los dataframes completos
 
@@ -22,12 +20,10 @@ df_pisos = pd.read_csv('C:\\Users\\Lenovo\\Desktop\\Universidad\\Python\\Proyect
 df_pisos.head()
 df_pisos.columns
 
-"""
-En primer lugar, para que un modelo de machine learning funcione correctamente, lo mejor,
-es transformar las variables categóricas en dummies, es decir, en valores numéricos.
+# COMENTARIO: En primer lugar, para que un modelo de machine learning funcione correctamente, lo mejor,
+# es transformar las variables categóricas en dummies, es decir, en valores numéricos.
+# Estas variables serían la "ubicacion", la "Planta", la "Conservacion" y la "Calefaccion"
 
-Estas variables serían la "ubicacion", la "Planta", la "Conservacion" y la "Calefaccion"
-"""
 
 # Transformacion de las variables categoricas
 df_pisos_num = pd.get_dummies(df_pisos, columns = ["ubicacion","Planta", "Conservacion", "Calefaccion"], dummy_na=True)
@@ -42,7 +38,7 @@ df_pisos_num.Calefaccion_nan.sum()
 df_pisos_num.Conservacion_nan.sum()
 df_pisos_num.Planta_nan.sum()
 
-df_pisos_num = df_pisos_num.drop(["Calefaccion_nan", "Calefaccion_nan", "Conservacion_nan", "Planta_nan"], axis = 1)
+df_pisos_num = df_pisos_num.drop(["ubicacion_nan", "Calefaccion_nan", "Conservacion_nan", "Planta_nan"], axis = 1)
 df_pisos_num.columns
 
 # Eliminamos las filas que presentan NAs
@@ -53,12 +49,12 @@ df_pisos_num.isna().sum()
 # Esto se cambiara mas adelante realizando una transformacion a tipo entero
 
 """
-RIDGE REGRESSION
+MODELO 1. RIDGE REGRESSION
+          VALIDACIÓN CRUZADA
 """
 
 # Creacion de objeto "x" (variables dependientes) y objeto "y" (variables independientes)
 x, y = df_pisos_num.drop(["titulo", "precio"], axis = 1), df_pisos_num["precio"]
-#x, y = df_pisos_num.drop(["titulo", "precio", "ubicacion"], axis = 1), df_pisos_num["precio"]
 
 # Transformamos el objeto "x" en entero
 x = x.astype(int)
@@ -68,7 +64,6 @@ x.info(); x.head()
 vars_pisos = list(df_pisos_num.columns)
 vars_pisos.remove("precio")
 vars_pisos.remove("titulo")
-#vars_pisos.remove("ubicacion")
 
 
     # MODELO SIMPLE DE RIDGE REGRESION POR VALIDACION CRUZADA
@@ -80,8 +75,6 @@ vars_pisos.remove("titulo")
 
 lr_m = Ridge()
 
-from sklearn import model_selection
-
 n_folds = 10
 kf = KFold(n_folds, shuffle=True, random_state=99) # Argumento shuffle es para mezclar los datos antes de dividirlos
 
@@ -92,9 +85,21 @@ scores = cross_val_score(lr_m, x, y, scoring="neg_mean_absolute_error", cv = kf,
 
 print("mae_mean: %.3f\t\tmae_std: %.3f" % (-scores.mean(), scores.std()))
 print("scores: \n", -np.round(scores,3))
-# COMENTARIO: El error medio de prediccion es de 49711.194€ y su desviación típica de 2594.346€
+# COMENTARIO: El error medio de prediccion sobre las diferentes muestras de test 
+# es de 49711.194€ y su desviación típica de 2594.346€. Los resultados de 
+# prediccion que se han obtenido son los siguientes: 
+
+# [46266.968 48919.166 49754.654 46437.33  51099.16  55558.555 50245.141
+# 51795.487 48017.67  49017.809]
 
 
+
+
+"""
+MODELO 2. RIDGE REGRESSION
+          VALIDACIÓN CRUZADA
+          FINE TUNNING
+"""
 
     # FINE TUNING. RIDGE REGRESSION POR VALIDACIÓN CRUZADA
 
@@ -152,13 +157,11 @@ print("best_cv_mae = %.2f" % (-ridge_alpha_search.best_score_))
 plt.xticks(range(len(l_alpha)), np.round(l_alpha,2), rotation = 45) # Label eje X
 plt.plot(-ridge_alpha_search.cv_results_['mean_test_score'])
 plt.show()
-# COMENTARIO: Hemos mejorado un poco el MAE y el mejor alpha ha cambiado a 5.66
+# COMENTARIO: Hemos mejorado un poco el MAE y el mejor alpha ha cambiado a 1.41
 
+# COMENTARIO: Una vez calculado el mejor alpha, vamos a proceder a ajustar el modelo con este parametro.
+# Una vez hecho esto, realizaremos la predicciones y calcularemos las correspondientes metricas
 
-"""
-Una vez calculado el mejor alpha, vamos a proceder a ajustar el modelo con este parametro.
-Una vez hecho esto, realizaremos la predicciones y calcularemos las correspondientes metricas
-"""
 
 best_alpha = ridge_alpha_search.best_params_['alpha']
 lr_m = Ridge(alpha = best_alpha)
@@ -187,29 +190,20 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 coeficientes_modelo = pd.DataFrame(lr_m.coef_, vars_pisos, columns = ["coef"]).sort_values(by = "coef", ascending=False)
 coeficientes_modelo
-# COMENTARIO: Investigar a ajustar el modelo quitando como variable dependiente la ubicacion. Hay ubicaciones que suman
-# demasiado valor a los pisos, como es obvio, pero tengo curiosidad de observar que ocurre al retirarla del modelo
-
-# COMENTARIO: Quitar la ubicacion de los datos significa perder demasiada informacion y obtener un MAE mas elevado
 
 
+# COMENTARIO:  Hasta ahora hemos ajustado un modelo Ridge Regression por validación cruzada.
+# A continuación, lo que haremos será dividir los datos en una muestra de entrenamiento
+# y una de test y observar los resultados
 
 
-
-
-"""
-Hasta ahora hemos ajustado un modelo Ridge Regression por validación cruzada.
-A continuación, lo que haremos será dividir los datos en una muestra de entrenamiento
-y una de test y observar los resultados
-"""
-from sklearn.model_selection import train_test_split
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=10)
 x_train.shape; y_train.shape
 x_test.shape; y_test.shape
 
 # Ajuste del modelo Ridge Regression 
-lr_m = Ridge()
+lr_m = Ridge(alpha = 1.41)
 lr_m.fit(x_train, y_train)
 
 # Realizamos las predicciones
@@ -226,21 +220,22 @@ plt.show()
 
 # Evaluacion del modelo
 RidgeRegression_MAE = np.mean(np.absolute(predictions - y_test))
-RidgeRegression_MSE = np.mean(predictions - y_test)** 2
-from sklearn.metrics import r2_score
 RidgeRegression_R2 = r2_score(y_test, predictions)
 
 RidgeRegression_MAE.round(5)
-RidgeRegression_MSE.round(5)
 RidgeRegression_R2.round(5)
 
 # COMENTARIO: Observamos que el MAE recibe un valor de 48927.047. El R^2 seria de 0.61 aproximadamente
 
 
-"""
-COMENTARIOS FINALES. Observan los resultados se ha alcanzado un MAE minimo de 48927.05 y un R^2 de 0.61
-aproximadamente. El objetivo es mejorar el modelo. Las dificultades se encuentran a la hora de tratar de
-predecir los pisos más caros. Para solucionar este error, se creara otro modelo mediante la aplicacion
-de correción logaritmica sobre la variable "precio" y el uso de pipelines. En el script RRmodel-pipelines.py
-se encuentra el codigo
-"""
+
+# CONCLUSIONES FINALES: 
+
+# Observando los resultados se ha alcanzado un MAE minimo de 48908.85 y un R^2 de 0.61
+# aproximadamente. El objetivo es mejorar el modelo. Las dificultades se encuentran a la hora de tratar de
+# predecir los pisos más caros. 
+
+# Para solucionar este error, se emplearán otras técnicas la aplicacion
+# de una correción logaritmica sobre la variable "precio" y el uso de pipelines. 
+# En el script RRmodel-pipelines.py se encuentra el codigo
+
