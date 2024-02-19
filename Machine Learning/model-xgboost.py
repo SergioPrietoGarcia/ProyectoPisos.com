@@ -107,7 +107,7 @@ print(median_absolute_error(sp.special.exp10(Y_train),sp.special.exp10(pred_trai
 
     # Prediccion sobre los datos de test
 pred_test = model.predict(X_test)
-print(r2_score(sp.special.exp10(Y_train),sp.special.exp10(pred_train)))
+print(r2_score(sp.special.exp10(Y_test),sp.special.exp10(pred_test)))
 print(median_absolute_error(sp.special.exp10(Y_test),sp.special.exp10(pred_test)))
 mae = median_absolute_error(sp.special.exp10(Y_test),sp.special.exp10(pred_test))
 
@@ -121,9 +121,10 @@ plt.xlabel("Test Data")
 plt.ylabel("Predict Data")
 plt.show()
 
-# COMENTARIO: El modelo ajustado mediante XGBoost ha logrado un valor del R^2 de 0.96
-# aproximadamente. Esto indica que el 96% de la varianza en la variable respuesta es 
-# explicada por el modelo.
+# COMENTARIO: El modelo ajustado mediante XGBoost ha logrado un valor del R^2 de 0.69
+# aproximadamente para la muestra de test. Esto indica que el 69% de la varianza en la variable respuesta es 
+# explicada por el modelo. Por otro lado, para la muestra de entrenamiento se ha alcanzado un r^2 de 0.96,
+# aproximadamente
 
 # COMENTARIO: Por otro lado, si estudiamos el MAE, observamos que se logra un valor de error
 # de 27000 aproximadamente en la muestra de test. Se ha conseguido reducir el error que habiamos alcanzado al ajustar

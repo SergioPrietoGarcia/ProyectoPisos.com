@@ -235,7 +235,7 @@ RidgeRegression_R2.round(5)
 # aproximadamente. El objetivo es mejorar el modelo. Las dificultades se encuentran a la hora de tratar de
 # predecir los pisos más caros. 
 
-# Para solucionar este error, se emplearán otras técnicas la aplicacion
+# Para solucionar este error, se empleará la aplicacion
 # de una correción logaritmica sobre la variable "precio" y el uso de pipelines. 
 # En el script RRmodel-pipelines.py se encuentra el codigo
 
